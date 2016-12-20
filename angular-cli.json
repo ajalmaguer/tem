@@ -8,17 +8,19 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "assets",
+        "assets/rs-plugin",
         "favicon.ico"
       ],
       "index": "index.html",
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "tme",
+      "prefix": "tem",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "assets/css/structure.css",
+        "assets/css/seo2.css",
+        "assets/css/custom.css"
       ],
       "scripts": [],
       "environments": {
