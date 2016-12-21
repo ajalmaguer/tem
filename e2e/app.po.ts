@@ -1,11 +1,11 @@
 import { browser, element, by } from 'protractor';
 
-export class TmePage {
+export class Tem2Page {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('tme-root h1')).getText();
+    return element(by.css('tem-root h1')).getText();
   }
 }

@@ -1,7 +1,7 @@
 {
   "project": {
-    "version": "1.0.0-beta.22-1",
-    "name": "tme"
+    "version": "1.0.0-beta.21",
+    "name": "tem2"
   },
   "apps": [
     {
@@ -9,6 +9,10 @@
       "outDir": "dist",
       "assets": [
         "assets/rs-plugin",
+        "assets/global.css",
+        "assets/images",
+        "assets/css/fonts",
+        "assets/fonts",
         "favicon.ico"
       ],
       "index": "index.html",
@@ -22,7 +26,25 @@
         "assets/css/seo2.css",
         "assets/css/custom.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/jquery-2.1.4.min.js",
+        "assets/js/mfn.menu.js",
+        "assets/js/jquery.plugins.js",
+        "assets/js/jquery.jplayer.min.js",
+        "assets/js/animations/animations.js",
+        "assets/js/scripts.js",
+        "assets/rs-plugin/css/settings.css",
+        "assets/rs-plugin/js/jquery.themepunch.tools.min.js",
+        "assets/rs-plugin/js/jquery.themepunch.revolution.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.video.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.slideanims.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.actions.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.kenburn.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.navigation.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.migration.min.js",
+        "assets/rs-plugin/js/extensions/revolution.extension.parallax.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

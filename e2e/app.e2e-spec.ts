@@ -1,14 +1,14 @@
-import { TmePage } from './app.po';
+import { Tem2Page } from './app.po';
 
-describe('tme App', function() {
-  let page: TmePage;
+describe('tem2 App', function() {
+  let page: Tem2Page;
 
   beforeEach(() => {
-    page = new TmePage();
+    page = new Tem2Page();
   });
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('tme works!');
+    expect(page.getParagraphText()).toEqual('tem works!');
   });
 });
