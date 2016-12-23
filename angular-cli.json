@@ -22,6 +22,7 @@
       "prefix": "tem",
       "mobile": false,
       "styles": [
+      	"styles.css",
         "assets/css/structure.css",
         "assets/css/seo2.css",
         "assets/css/custom.css"
