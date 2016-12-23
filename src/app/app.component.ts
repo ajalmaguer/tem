@@ -31,7 +31,6 @@ export class AppComponent implements OnInit {
 					origo: "enterpoint",
 					speed: 400,
 					levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
-					type: "scroll",
 				},
 				shadow: 0,
 				spinner: "spinner2",
