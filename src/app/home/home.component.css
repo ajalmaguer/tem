@@ -1,0 +1,18 @@
+@media (max-width: 1239px){
+	.tem-subtitle, .tem-button {
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 767px){
+	.tem-title {
+		font-size: 22px !important;
+	}
+	.tem-subtitle, .tem-button {
+		font-size: 14px !important;
+	}
+	.tem-button {
+		padding-top: 10px !important; 
+		padding-bottom: 10px !important; 
+	}
+}
