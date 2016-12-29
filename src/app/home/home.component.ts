@@ -10,7 +10,16 @@ declare var revslider_showDoubleJqueryError
 	styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+	hero: any = {
+		title 		: 'Boost your position in Search <br /> Engines with BeSEO ',
+		mainImage 	: 'assets/images/tem/hero_dark.png',
+		subImage 	: 'assets/images/tem/hero-sub.png',
+		subtitle1 	: 'Bullet point 1',
+		subtitle2 	: 'Bullet point 2',
+		subtitle3 	: 'Bullet point 3',
+		button 		: 'Check our offer',
+	}
+	
 	constructor() { }
 
 	ngOnInit() {
