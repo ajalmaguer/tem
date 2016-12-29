@@ -9,3 +9,17 @@
 #Top_bar .menu > li > a {
     color: #fff;
 }
+
+
+@media (max-width: 1239px){
+	.tem_logo img {
+		max-height: auto;
+	}	
+	
+	.tem_logo {
+	    background-color: #fff;
+	    width: 70px;
+	    text-align: center;
+	}
+}
+
