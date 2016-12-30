@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SubPagesComponent } from './sub-pages/sub-pages.component';
 import { HomeComponent } from './home/home.component';
 import { HeroComponent } from './shared/hero/hero.component';
+import { FourBulletpointsComponent } from './shared/four-bulletpoints/four-bulletpoints.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeroComponent } from './shared/hero/hero.component';
     FooterComponent,
     SubPagesComponent,
     HomeComponent,
-    HeroComponent
+    HeroComponent,
+    FourBulletpointsComponent
   ],
   imports: [
     BrowserModule,
