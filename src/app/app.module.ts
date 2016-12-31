@@ -11,6 +11,9 @@ import { SubPagesComponent } from './sub-pages/sub-pages.component';
 import { HomeComponent } from './home/home.component';
 import { HeroComponent } from './shared/hero/hero.component';
 import { FourBulletpointsComponent } from './shared/four-bulletpoints/four-bulletpoints.component';
+import { TriplePanesComponent } from './shared/triple-panes/triple-panes.component';
+import { ContentComponent } from './shared/content/content.component';
+import { OfferComponent } from './shared/offer/offer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { FourBulletpointsComponent } from './shared/four-bulletpoints/four-bulle
     SubPagesComponent,
     HomeComponent,
     HeroComponent,
-    FourBulletpointsComponent
+    FourBulletpointsComponent,
+    TriplePanesComponent,
+    ContentComponent,
+    OfferComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,117 @@
+<div class="section mcb-section   " style="padding-top:0px; padding-bottom:40px; background-color:">
+	<div class="section_wrapper mcb-section-inner">
+
+		<!-- DIVIDER -->
+		<div class="wrap mcb-wrap one  valign-top clearfix">
+			<div class="mcb-wrap-inner">
+				<div class="column mcb-column one column_divider ">
+					<hr class="" style="margin: 0 auto 70px;" />
+				</div>
+			</div>
+		</div>
+
+		<!-- LEFT -->
+		<!-- LEFT -->
+		<!-- LEFT -->
+		<div *ngIf="side==='left'" >
+			<div class="wrap mcb-wrap one-third  valign-top clearfix">
+				<div class="mcb-wrap-inner">
+					<div class="column mcb-column one column_image ">
+						<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+							<div class="image_wrapper">
+								<img class="scale-with-grid" [src]="imageUrl" alt="home_seo2_offer3" width="440" height="440" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap mcb-wrap two-third  valign-top clearfix" style="padding:0 0 0 5%">
+				<div class="mcb-wrap-inner">
+					<div class="column mcb-column one column_column  column-margin-10px">
+						<div class="column_attr">
+							<h2>{{title}}</h2>
+						</div>
+					</div>
+					<div class="column mcb-column two-third column_column ">
+						<div class="column_attr" style=" padding:0 5% 0 0;">
+							<p class="big">
+								{{bigParagraph}}
+							</p>
+							<p>
+								{{smallParagraph}}
+							</p>
+							<hr class="no_line" style="margin: 0 auto 25px;" />
+							<a class="button  button_size_2 button_theme button_js" href="#">
+								<span class="button_label">{{buttonText}}
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="column mcb-column one-third column_column ">
+						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding:50px 10% 35px;">
+							<h2 class="themecolor">{{price}}</h2>
+							<hr class="no_line" style="margin: 0 auto 30px;" />
+							<p>
+								{{priceCaption}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+		<!-- RIGHT -->
+		<!-- RIGHT -->
+		<!-- RIGHT -->
+		<div *ngIf="side==='right'">
+			<div class="wrap mcb-wrap two-third  valign-top clearfix" style="padding:0 5% 0 0">
+				<div class="mcb-wrap-inner">
+					<div class="column mcb-column one column_column  column-margin-10px">
+						<div class="column_attr">
+							<h2>{{title}}</h2>
+						</div>
+					</div>
+					<div class="column mcb-column one-third column_column ">
+						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding:50px 10% 35px;">
+							<h2 class="themecolor">{{price}}</h2>
+							<hr class="no_line" style="margin: 0 auto 30px;" />
+							<p>
+								{{priceCaption}}
+							</p>
+						</div>
+					</div>
+					<div class="column mcb-column two-third column_column ">
+						<div class="column_attr" style=" padding:0 0 0 5%;">
+							<p class="big">
+								{{bigParagraph}}
+							</p>
+							<p>
+								{{smallParagraph}}
+							</p>
+							<a class="button  button_size_2 button_theme button_js" href="#">
+								<span class="button_label">{{buttonText}}
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap mcb-wrap one-third  valign-top clearfix">
+				<div class="mcb-wrap-inner">
+					<div class="column mcb-column one column_image ">
+						<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+							<div class="image_wrapper">
+								<img class="scale-with-grid" [src]="imageUrl" alt="home_seo2_offer2" width="440" height="440" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+		
