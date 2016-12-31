@@ -14,6 +14,7 @@ import { FourBulletpointsComponent } from './shared/four-bulletpoints/four-bulle
 import { TriplePanesComponent } from './shared/triple-panes/triple-panes.component';
 import { ContentComponent } from './shared/content/content.component';
 import { OfferComponent } from './shared/offer/offer.component';
+import { SmallHeaderComponent } from './shared/small-header/small-header.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { OfferComponent } from './shared/offer/offer.component';
     FourBulletpointsComponent,
     TriplePanesComponent,
     ContentComponent,
-    OfferComponent
+    OfferComponent,
+    SmallHeaderComponent
   ],
   imports: [
     BrowserModule,
