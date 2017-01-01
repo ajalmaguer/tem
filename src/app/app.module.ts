@@ -15,6 +15,7 @@ import { TriplePanesComponent } from './shared/triple-panes/triple-panes.compone
 import { ContentComponent } from './shared/content/content.component';
 import { OfferComponent } from './shared/offer/offer.component';
 import { SmallHeaderComponent } from './shared/small-header/small-header.component';
+import { HalfPageImageComponent } from './shared/half-page-image/half-page-image.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SmallHeaderComponent } from './shared/small-header/small-header.compone
     TriplePanesComponent,
     ContentComponent,
     OfferComponent,
-    SmallHeaderComponent
+    SmallHeaderComponent,
+    HalfPageImageComponent
   ],
   imports: [
     BrowserModule,

@@ -1268,9 +1268,9 @@ html {
     background-color: #f8f8f8;
 }
 
-body:not(.template-slider) #Header_wrapper {
+/*body:not(.template-slider) #Header_wrapper {
     background-image: url(../images/home_seo2_subheader.png);
-}
+}*/
 
 body,button,span.date_label,.timeline_items li h3 span,input[type="submit"],input[type="reset"],input[type="button"],input[type="text"],input[type="password"],input[type="tel"],input[type="email"],textarea,select,.offer_li .title h3 {
     font-family: "Lato",Arial,Tahoma,sans-serif;
