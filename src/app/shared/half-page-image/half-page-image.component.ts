@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HalfPageImageComponent implements OnInit {
 	@Input() data: any = {
-		backgroundImage: 	'/assets/images/home_seo2_sectionbg1.jpg',
+		backgroundImage: 	'assets/images/home_seo2_sectionbg1.jpg',
 		title: 				'Section title goes here',
 		header1: 			'Header 1',
 		content1: 			'Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu amet.',
