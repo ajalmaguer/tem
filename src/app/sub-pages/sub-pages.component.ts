@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { pageData } from './pageData'
 
 @Component({
 	selector: 'tem-sub-pages',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 	styleUrls: ['./sub-pages.component.css']
 })
 export class SubPagesComponent implements OnInit {
+	currentPage: any
 
-	constructor() { }
+	constructor(private route: ActivatedRoute) { }
 
 	ngOnInit() {
+		this.route.params.subscribe(params => {
+			let paramObject:any = params
+			this.currentPage = pageData[paramObject.id]
+			console.log('this.currentPage =', this.currentPage)
+		})
 	}
 
 }

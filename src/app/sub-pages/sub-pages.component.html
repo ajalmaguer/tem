@@ -1,4 +1,9 @@
-<tem-small-header></tem-small-header>
+<tem-small-header [title]="currentPage.pageTitle"></tem-small-header>
+
+<div *ngFor="let el of currentPage.elements">
+	<tem-offer [content]="el"></tem-offer>
+</div>
+
 <tem-half-page-image></tem-half-page-image>
 <tem-four-column></tem-four-column>
 <tem-triple-panes></tem-triple-panes>

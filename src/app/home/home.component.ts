@@ -11,7 +11,7 @@ declare var revslider_showDoubleJqueryError
 })
 export class HomeComponent implements OnInit {
 	hero: any = {
-		title 		: 'Boost your position in Search <br /> Engines with BeSEO ',
+		title 		: 'Terminal Engineering <br> and Manufacturing',
 		mainImage 	: 'assets/images/tem/hero_dark.png',
 		subImage 	: 'assets/images/tem/hero-sub.png',
 		subtitle1 	: 'Bullet point 1',
