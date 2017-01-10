@@ -16,6 +16,7 @@ import { ContentComponent } from './shared/content/content.component';
 import { OfferComponent } from './shared/offer/offer.component';
 import { SmallHeaderComponent } from './shared/small-header/small-header.component';
 import { HalfPageImageComponent } from './shared/half-page-image/half-page-image.component';
+import { FourColumnComponent } from './shared/four-column/four-column.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HalfPageImageComponent } from './shared/half-page-image/half-page-image
     ContentComponent,
     OfferComponent,
     SmallHeaderComponent,
-    HalfPageImageComponent
+    HalfPageImageComponent,
+    FourColumnComponent
   ],
   imports: [
     BrowserModule,
