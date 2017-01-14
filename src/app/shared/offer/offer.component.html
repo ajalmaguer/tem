@@ -41,19 +41,24 @@
 								{{content.smallParagraph}}
 							</p>
 							<hr class="no_line" style="margin: 0 auto 25px;" />
-							<a class="button  button_size_2 button_theme button_js" href="#">
+							<a class="button button_size_2 button_theme button_js" href="#" *ngIf="content.buttonText">
 								<span class="button_label">{{content.buttonText}}
 								</span>
 							</a>
 						</div>
 					</div>
-					<div class="column mcb-column one-third column_column ">
+					<div *ngIf="content.price && content.priceCaption" class="column mcb-column one-third column_column">
 						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding:50px 10% 35px;">
 							<h2 class="themecolor">{{content.price}}</h2>
 							<hr class="no_line" style="margin: 0 auto 30px;" />
 							<p>
 								{{content.priceCaption}}
 							</p>
+						</div>
+					</div>
+					<div  class="column mcb-column one-third column_column" *ngIf="content.subImg">
+						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding: 10%; cursor: pointer;">
+							<img [src]="content.subImg" style="width: 100%;">
 						</div>
 					</div>
 				</div>
@@ -72,13 +77,18 @@
 							<h2>{{content.title}}</h2>
 						</div>
 					</div>
-					<div class="column mcb-column one-third column_column ">
+					<div *ngIf="content.price && content.priceCaption" class="column mcb-column one-third column_column">
 						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding:50px 10% 35px;">
 							<h2 class="themecolor">{{content.price}}</h2>
 							<hr class="no_line" style="margin: 0 auto 30px;" />
 							<p>
 								{{content.priceCaption}}
 							</p>
+						</div>
+					</div>
+					<div  class="column mcb-column one-third column_column" *ngIf="content.subImg">
+						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding: 10%; cursor: pointer;">
+							<img [src]="content.subImg" style="width: 100%;">
 						</div>
 					</div>
 					<div class="column mcb-column two-third column_column ">
@@ -89,7 +99,7 @@
 							<p>
 								{{content.smallParagraph}}
 							</p>
-							<a class="button  button_size_2 button_theme button_js" href="#">
+							<a class="button  button_size_2 button_theme button_js" href="#"  *ngIf="content.buttonText">
 								<span class="button_label">{{content.buttonText}}
 								</span>
 							</a>

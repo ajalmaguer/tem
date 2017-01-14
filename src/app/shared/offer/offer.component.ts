@@ -15,9 +15,9 @@ export class OfferComponent implements OnInit {
 		price: '$29',
 		priceCaption: 'Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris malesuada.',
 		imageUrl: 'assets/images/home_seo2_offer2.png',
+		subImg: ''
 	}
 	
-
 	constructor() { }
 
 	ngOnInit() {
