@@ -75,6 +75,20 @@ export const pageData = {
 						content2: '',
 						buttonText: '',
 					}
+			}, {
+				type: 'subheader',
+				data: 'At TMC we strive to continuously maintain and live by our five main core values.'
+			}, {
+				type: 'triple-panes',
+				data: {
+					backgroundImage: 'assets/images/tem/word-cloud.png',
+					title: 'The Business',
+					header1: '',
+					content1: 'We are a small business specializing in the design, engineering, and manufacture of a variety of items in many different industries. We specialize in the manufacturing of vacuum chambers, pressure vessels, prototypes, and assorted fabrications for the food processing, pharmaceutical, environmental, and technological industries.',
+					header2: '',
+					content2: '',
+					buttonText: '',
+				}
 			}
 		]
 	}

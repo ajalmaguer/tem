@@ -7,6 +7,8 @@
 			[data]="el.data"
 			*ngSwitchCase="'half-page-image'">
 			</tem-half-page-image>
+		<tem-subheader [text]="el.data" *ngSwitchCase="'subheader'"></tem-subheader>
+		<tem-triple-panes *ngSwitchCase="'triple-panes'"></tem-triple-panes>
 	</div>
 </div>
 
