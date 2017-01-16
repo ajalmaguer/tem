@@ -16,13 +16,8 @@
 
 
 @media (max-width: 1239px){
-	.top_bar_left {
-		height: 50px;
-		padding-top: 10px;
-	}
-	
 	.tem_logo img {
-		max-height: auto;
+	    max-height: 60px;
 	}	
 	
 	.tem_logo {
@@ -44,10 +39,6 @@
 @media (max-width: 767px){
 	#Top_bar .logo {
 	    margin: 0;
-	}
-
-	.tem_logo img {
-		width: 75px;
 	}
 
 	#Header_creative #Top_bar .top_bar_left {
