@@ -17,6 +17,9 @@ export class HeroComponent implements AfterViewInit {
 	@Input() subtitle2: string 	= 'Bullet point 2'
 	@Input() subtitle3: string 	= 'Bullet point 3'
 	@Input() button: string 	= 'Check our offer'
+	@Input() icon1: string 	= 'bar-chart'
+	@Input() icon2: string 	= 'gears'
+	@Input() icon3: string 	= 'envelope-o'
 
 
 	constructor() { }

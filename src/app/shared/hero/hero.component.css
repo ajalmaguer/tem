@@ -1,3 +1,9 @@
+i.fa {
+	font-size: 4em;
+	vertical-align: bottom;
+	color: #fff;
+}
+
 @media (max-width: 1239px){
 	.tem-subtitle, .tem-button {
 		font-size: 20px !important;

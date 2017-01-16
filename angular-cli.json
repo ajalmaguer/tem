@@ -25,7 +25,8 @@
       	"styles.css",
         "assets/css/structure.css",
         "assets/css/seo2.css",
-        "assets/css/custom.css"
+        "assets/css/custom.css",
+        "assets/css/font-awesome.min.css"
       ],
       "scripts": [
         "assets/js/jquery-2.1.4.min.js",
