@@ -17,6 +17,7 @@ import { OfferComponent } from './shared/offer/offer.component';
 import { SmallHeaderComponent } from './shared/small-header/small-header.component';
 import { HalfPageImageComponent } from './shared/half-page-image/half-page-image.component';
 import { FourColumnComponent } from './shared/four-column/four-column.component';
+import { SubheaderComponent } from './shared/subheader/subheader.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FourColumnComponent } from './shared/four-column/four-column.component'
     OfferComponent,
     SmallHeaderComponent,
     HalfPageImageComponent,
-    FourColumnComponent
+    FourColumnComponent,
+    SubheaderComponent
   ],
   imports: [
     BrowserModule,
