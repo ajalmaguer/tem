@@ -14,10 +14,10 @@ export class NavbarComponent implements OnInit {
 
 	ngOnInit() {}
 
-	goTo(route: any[]) {
+	goTo(route: any[], noToggleClick) {
 		this.router.navigate(route)
 		window.scrollTo(0,0)
-		$(".responsive-menu-toggle").click()
+		if (!noToggleClick) $(".responsive-menu-toggle").click()
 	}
 
 }

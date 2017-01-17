@@ -7,7 +7,28 @@
 				</div>
 			</div>
 		</div> -->
-		<div class="wrap mcb-wrap one-third  valign-top clearfix" style="padding:0 1%">
+		<div class="wrap mcb-wrap one-third  valign-top clearfix" style="padding:0 1%" *ngFor="let pane of data?.panes">
+			<div class="mcb-wrap-inner">
+				<div class="column mcb-column one column_column ">
+					<div class="column_attr animate" [attr.data-anim-type]="pane.fadeDir" [ngStyle]="{'background-color': pane.backgroundColor}" style="padding:50px 35px 0; height: 420px;">
+						<div class="paneIcon">
+							<i class="fa fa-{{pane.icon}}" aria-hidden="true"></i>
+						</div>
+
+						<h3>
+							<a style="color: #fff;" href="#">{{pane.header}}</a>
+						</h3>
+
+						<ul style="color: #fff">
+							<li *ngFor="let bullet of pane.bullets">{{bullet}}</li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="wrap mcb-wrap one-third  valign-top clearfix" style="padding:0 1%">
 			<div class="mcb-wrap-inner">
 				<div class="column mcb-column one column_column ">
 					<div class="column_attr animate" data-anim-type="fadeInLeft" style=" background-color:#3a80f1; padding:50px 35px 0;">
@@ -33,7 +54,8 @@
 						<h6 style="color: #fff;">From $29 / month
 						</h6>
 						<h3>
-							<a style="color: #fff;" href="#">Search engine optimization with content strategy
+							<a style="color: #fff;" href="#">
+								Good ethics and morals
 							</a>
 						</h3>
 						<hr class="no_line" style="margin: 0 auto 70px;" />
@@ -50,7 +72,8 @@
 			<div class="mcb-wrap-inner">
 				<div class="column mcb-column one column_column ">
 					<div class="column_attr animate" data-anim-type="fadeInRight" style=" background-color:#1d9e3f; padding:50px 35px 0;">
-						<h6 style="color: #fff;">From $35 / month
+						<h6 style="color: #fff;">
+							Family atmosphere with coworkers, customers, and vendors
 						</h6>
 						<h3>
 							<a style="color: #fff;" href="#">Sales boosting and marketing for all kind of e-shops
@@ -66,5 +89,49 @@
 				</div>
 			</div>
 		</div>
+		<div class="wrap mcb-wrap one-third  valign-top clearfix" style="padding:0 1%">
+			<div class="mcb-wrap-inner">
+				<div class="column mcb-column one column_column ">
+					<div class="column_attr animate" data-anim-type="fadeInRight" style=" background-color:#1d9e3f; padding:50px 35px 0;">
+						<h6 style="color: #fff;">
+							Family atmosphere with coworkers, customers, and vendors
+						</h6>
+						<h3>
+							<a style="color: #fff;" href="#">
+							Communally and environmentally attentive 
+							</a>
+						</h3>
+						<hr class="no_line" style="margin: 0 auto 70px;" />
+						<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+							<div class="image_wrapper">
+								<img class="scale-with-grid" src="assets/images/home_seo2_box3.png" alt="home_seo2_box3" width="650" height="590" /> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap mcb-wrap one-third  valign-top clearfix" style="padding:0 1%">
+			<div class="mcb-wrap-inner">
+				<div class="column mcb-column one column_column ">
+					<div class="column_attr animate" data-anim-type="fadeInRight" style=" background-color:#1d9e3f; padding:50px 35px 0;">
+						<h6 style="color: #fff;">
+							Family atmosphere with coworkers, customers, and vendors
+						</h6>
+						<h3>
+							<a style="color: #fff;" href="#">
+							Communally and environmentally attentive 
+							</a>
+						</h3>
+						<hr class="no_line" style="margin: 0 auto 70px;" />
+						<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+							<div class="image_wrapper">
+								<img class="scale-with-grid" src="assets/images/home_seo2_box3.png" alt="home_seo2_box3" width="650" height="590" /> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
 	</div>
 </div>

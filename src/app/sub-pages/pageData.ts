@@ -81,13 +81,59 @@ export const pageData = {
 			}, {
 				type: 'triple-panes',
 				data: {
-					backgroundImage: 'assets/images/tem/word-cloud.png',
-					title: 'The Business',
-					header1: '',
-					content1: 'We are a small business specializing in the design, engineering, and manufacture of a variety of items in many different industries. We specialize in the manufacturing of vacuum chambers, pressure vessels, prototypes, and assorted fabrications for the food processing, pharmaceutical, environmental, and technological industries.',
-					header2: '',
-					content2: '',
-					buttonText: '',
+					panes: [
+						{
+							backgroundColor: '#004C91',
+							fadeDir: 'fadeInLeft',
+							icon: 'balance-scale',
+							header: 'Good ethics and morals',
+							bullets: [
+								'Trust – we do what we say and say what we do',
+								'Loyalty',
+								'Pride and passion without arrogance',
+								'Open-mindedness and being respectful of others’ ideas',
+							],
+
+						}, {
+							backgroundColor: '#FFB100',
+							fadeDir: 'fadeInUp',
+							icon: 'users',
+							header: 'Family atmosphere with coworkers and customers',
+							bullets: [
+								'Open and honest internal and external communication',
+								'Laughter and fun with discretion',
+							],
+
+						}, {
+							backgroundColor: '#283954',
+							fadeDir: 'fadeInRight',
+							icon: 'thumbs-up',
+							header: '“We Do It Right” attitude',
+							bullets: [
+								'“Find a way” and a problem solving attitude',
+								'Amazing attention to detail',
+								'Focus on customer service',
+								'Presentation, organization, and cleanliness – professionalism and productivity',
+							],
+
+						}, {
+							backgroundColor: '#004C91',
+							fadeDir: 'fadeInLeft',
+							icon: 'envira',
+							header: 'Communal and environmentally attentive',
+							bullets: [],
+
+						}, {
+							backgroundColor: '#FFB100',
+							fadeDir: 'fadeInUp',
+							icon: 'line-chart',
+							header: 'High yet realistic expectations and goals',
+							bullets: [
+								'Continuous improvement for optimizing and maximizing what we do',
+								'Don’t be afraid to make a mistake or ask a question ',
+							],
+
+						}
 				}
 			}
 		]

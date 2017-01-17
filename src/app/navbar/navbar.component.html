@@ -5,7 +5,7 @@
 		<div id="Top_bar">
 			<div class="one">
 				<div class="top_bar_left">
-					<div class="logo tem_logo" (click)="goTo(['/'])">
+					<div class="logo tem_logo" (click)="goTo(['/'], true)">
 						<a id="logo logo-link" title="Terminal Engineering & Manufacturing">
 							<img class="logo-main scale-with-grid rect-logo" src="assets/images/tem/logo-rect.png" alt="Terminal Engineering & Manufacturing" />
 						</a>
@@ -20,7 +20,7 @@
 									<a (click)="goTo(['/company'])"><span>Company</span></a>
 								</li>
 								<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page">
-									<a><span>Team</span></a>
+									<a (click)="goTo(['/team'])"><span>Team</span></a>
 								</li>
 								<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page">
 									<a (click)="goTo(['/certifications'])"><span>Certifications</span></a>

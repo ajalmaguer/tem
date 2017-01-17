@@ -1,16 +1,19 @@
-<tem-small-header [title]="currentPage.pageTitle"></tem-small-header>
+<div *ngIf="currentPage?.elements">
+	<tem-small-header [title]="currentPage.pageTitle"></tem-small-header>
 
-<div *ngFor="let el of currentPage.elements">
-	<div [ngSwitch]="el.type">
-		<tem-offer [content]="el" *ngSwitchCase="'offer'"></tem-offer>
-		<tem-half-page-image 
-			[data]="el.data"
-			*ngSwitchCase="'half-page-image'">
-			</tem-half-page-image>
-		<tem-subheader [text]="el.data" *ngSwitchCase="'subheader'"></tem-subheader>
-		<tem-triple-panes *ngSwitchCase="'triple-panes'"></tem-triple-panes>
+	<div *ngFor="let el of currentPage.elements">
+		<div [ngSwitch]="el.type">
+			<tem-offer [content]="el" *ngSwitchCase="'offer'"></tem-offer>
+			<tem-half-page-image 
+				[data]="el.data"
+				*ngSwitchCase="'half-page-image'">
+				</tem-half-page-image>
+			<tem-subheader [text]="el.data" *ngSwitchCase="'subheader'"></tem-subheader>
+			<tem-triple-panes [data]="el.data" *ngSwitchCase="'triple-panes'"></tem-triple-panes>
+		</div>
 	</div>
 </div>
 
-<tem-four-column></tem-four-column>
-<tem-triple-panes></tem-triple-panes>
+<div *ngIf="!currentPage?.elements">
+	<tem-small-header title="Sorry, page not found"></tem-small-header>
+</div>
