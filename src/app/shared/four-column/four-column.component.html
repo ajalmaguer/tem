@@ -1,24 +1,24 @@
-<div class="section mcb-section   " style="padding-top:70px; padding-bottom:30px; background-color:">
+<div class="section mcb-section   " style="padding-top:70px; padding-bottom:30px; margin-top: -100px;">
 	<div class="section_wrapper mcb-section-inner">
-		<div class="wrap mcb-wrap one-fourth  valign-top clearfix" style="padding:0 2% 0 0">
+		<div *ngFor="let item of data" class="wrap mcb-wrap one-fourth  valign-top clearfix" style="padding:0 2% 0 0">
 			<div class="mcb-wrap-inner">
-				<div class="column mcb-column one column_image ">
+				<div class="column mcb-column one column_image" *ngIf="item?.image">
 					<div class="image_frame image_item no_link scale-with-grid no_border">
-					<div class="image_wrapper"><img class="scale-with-grid" src="assets/images/home_seo2_icon1.png" alt="home_seo2_icon1" width="110" height="110" />
+					<div class="image_wrapper"><img class="scale-with-grid" [src]="item?.image" alt="home_seo2_icon1" width="110" height="110" />
 						</div>
 					</div>
 				</div>
 				<div class="column mcb-column one column_column ">
 					<div class="column_attr">
-						<h4>Web development</h4>
+						<h4>{{item?.title}}</h4>
 						<p>
-							Lorem ipsum dolor sit amet, consm est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+							{{item?.text}}
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="wrap mcb-wrap one-fourth  valign-top clearfix" style="padding:0 2% 0 0">
+		<!-- <div class="wrap mcb-wrap one-fourth  valign-top clearfix" style="padding:0 2% 0 0">
 			<div class="mcb-wrap-inner">
 				<div class="column mcb-column one column_image ">
 					<div class="image_frame image_item no_link scale-with-grid no_border">
@@ -71,6 +71,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>

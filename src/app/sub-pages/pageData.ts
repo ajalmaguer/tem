@@ -3,6 +3,42 @@ export const pageData = {
 		pageTitle: 'Certifications',
 		elements: [
 			{
+				type: 'subheader',
+				data: 'TMC is certified to design and manufacture to the following standards:'
+			}, {
+				type: 'four-bulletpoints',
+				data: [
+					{
+						title: 'U.S. DOT Section 107 (49 CFR)',
+						image: '',
+						text: ''
+					},{
+						title: 'MIL-I-45208A',
+						image: '',
+						text: ''
+					},{
+						title: 'NQA-1',
+						image: '',
+						text: ''
+					},{
+						title: '10 CFR 71, Subpart H',
+						image: '',
+						text: ''
+					},{
+						title: '10 CFR 21',
+						image: '',
+						text: ''
+					},{
+						title: '10 CFR 50, Appendix B',
+						image: '',
+						text: ''
+					},{
+						title: 'ASME Section VIII, Division I - U Stamp',
+						image: '',
+						text: ''
+					},
+				]
+			}, {
 				type: 'offer',
 				side: 'left',
 				title: 'ASME Code Pressure Vessels',
@@ -142,6 +178,9 @@ export const pageData = {
 		pageTitle: 'Team',
 		elements: [
 			{
+				type: 'subheader',
+				data: 'Meet the members of our team'
+			}, {
 				type: 'four-bulletpoints',
 				data: [
 					{

@@ -14,4 +14,12 @@ export class FourBulletpointsComponent implements OnInit {
 	ngOnInit() {
 	}
 
+	calcMinHeight(item) {
+		if (!item.text && item.image) {
+			return 200
+		} else {
+			return 0
+		}
+	}
+
 }

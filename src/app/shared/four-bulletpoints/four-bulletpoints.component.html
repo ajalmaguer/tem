@@ -1,8 +1,8 @@
-<div class="section mcb-section   " style="padding-top:90px; padding-bottom:20px; background-color:">
+<div class="section mcb-section   " style="padding-bottom:20px;">
 	<div class="section_wrapper mcb-section-inner">
-		<div *ngFor="let item of data" class="wrap mcb-wrap one-second  valign-top clearfix" style="padding:0 2% 0 0; min-height: 200px;">
+		<div *ngFor="let item of data" class="wrap mcb-wrap one-second  valign-top clearfix" style="padding:0 2% 0 0;" [style.min-height]="calcMinHeight(item)">
 			<div class="mcb-wrap-inner">
-				<div class="column mcb-column one-fourth column_image ">
+				<div *ngIf="item.image" class="column mcb-column one-fourth column_image ">
 					<div class="animate" data-anim-type="bounceIn">
 						<div class="image_frame image_item no_link scale-with-grid no_border">
 							<div class="image_wrapper"><img class="scale-with-grid" style="border-radius: 100%;" [src]="item.image" alt="home_seo2_icon1" width="110" height="110" /> 
@@ -12,10 +12,10 @@
 				</div>
 				<div class="column mcb-column three-fourth column_column ">
 					<div class="column_attr animate" data-anim-type="fadeIn">
-						<h4>
+						<h4 *ngIf="item.title">
 							{{item.title}}
 						</h4>
-						<p>
+						<p *ngIf="item.text">
 							{{item.text}}
 						</p>
 					</div>
