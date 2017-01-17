@@ -168,6 +168,18 @@ export const pageData = {
 						title: 'Jorge Sr.',
 						image: 'assets/images/tem/team/jorgesr.png',
 						text: 'I’m happy to work at Terminal Manufacturing Company.'
+					}, {
+						title: 'Jose',
+						image: 'assets/images/tem/team/jose.png',
+						text: 'Para mi, es una compania llena de oportunidades. For me, TMC is a company full of opportunities for their workers.'
+					}, {
+						title: 'Isaac',
+						image: 'assets/images/tem/team/isaac.png',
+						text: 'Terminal Manufacturing is an engineering company whose goal is to offer the best possible customer service in manufacturing by understanding their aches and pains and utilize skills in engineering, project management, and manufacturing to arrive at a solution.'
+					}, {
+						title: 'Jimmy',
+						image: 'assets/images/tem/team/jimmy.png',
+						text: 'Terminal is a group of professionals that takes responsibility for our products. We have diverse skills and cater to diverse customers.'
 					},
 				]
 			}, 
