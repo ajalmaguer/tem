@@ -10,9 +10,12 @@
 				</tem-half-page-image>
 			<tem-subheader [text]="el.data" *ngSwitchCase="'subheader'"></tem-subheader>
 			<tem-triple-panes [data]="el.data" *ngSwitchCase="'triple-panes'"></tem-triple-panes>
+			<tem-four-bulletpoints [data]="el.data" *ngSwitchCase="'four-bulletpoints'"></tem-four-bulletpoints>
+
 		</div>
 	</div>
 </div>
+
 
 <div *ngIf="!currentPage?.elements">
 	<tem-small-header title="Sorry, page not found"></tem-small-header>

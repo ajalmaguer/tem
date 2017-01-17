@@ -137,6 +137,40 @@ export const pageData = {
 				}
 			}
 		]
+	},
+	team: {
+		pageTitle: 'Team',
+		elements: [
+			{
+				type: 'four-bulletpoints',
+				data: [
+					{
+						title: 'Steve',
+						image: 'assets/images/tem/team/steve.png',
+						text: 'TMC is an engineering / manufacturing firm with an emphasis on project management. We have our own machine shop and welding shop as well. We listen to our customer and put together a plan for a successful completion.'
+					},{
+						title: 'Jonita',
+						image: 'assets/images/tem/team/jonita.png',
+						text: 'TMC is a mechanical engineering firm that designs and fabricates custom machined jobs. We do work for the biotech, semi conductor, food, nuclear industries and department of energy work. We do international business. We also have a trucking department that handles testing and repair of DOT trucks.'
+					}, {
+						title: 'John',
+						image: 'assets/images/tem/team/john.png',
+						text: 'A really neat little shop that makes all kinds of interesting things.'
+					}, {
+						title: 'Raelene',
+						image: 'assets/images/tem/team/raelene.png',
+						text: 'We do custom high pressure vessels along with parts for DOE. We have a fab and machine shop and also do truck tank testing.'
+					}, {
+						title: 'Yin',
+						image: 'assets/images/tem/team/yin.png',
+						text: 'We have the best machine technology and do all color material.'
+					}, {
+						title: 'Jorge Sr.',
+						image: 'assets/images/tem/team/jorgesr.png',
+						text: 'I’m happy to work at Terminal Manufacturing Company.'
+					},
+				]
+			}, 
 	}
 
 }
