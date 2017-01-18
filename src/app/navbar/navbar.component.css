@@ -26,6 +26,11 @@
 	    text-align: center;
 	}
 
+	.top_bar_left {
+		padding-top: 10px;
+	    padding-bottom: 4px;
+	}
+
 	#Header_creative {
 		background-color: #fff;
 	}
