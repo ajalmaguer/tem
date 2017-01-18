@@ -18,6 +18,7 @@ import { SmallHeaderComponent } from './shared/small-header/small-header.compone
 import { HalfPageImageComponent } from './shared/half-page-image/half-page-image.component';
 import { FourColumnComponent } from './shared/four-column/four-column.component';
 import { SubheaderComponent } from './shared/subheader/subheader.component';
+import { ContactComponent } from './shared/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { SubheaderComponent } from './shared/subheader/subheader.component';
     SmallHeaderComponent,
     HalfPageImageComponent,
     FourColumnComponent,
-    SubheaderComponent
+    SubheaderComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

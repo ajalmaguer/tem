@@ -30,4 +30,27 @@ export class TriplePanesComponent implements OnInit {
 	ngOnInit() {
 	}
 
+	getMinHeight(minHeight) {
+		if (minHeight) {
+			return minHeight
+		} else {
+			return '420px'
+		}
+	}
+
+	getFadeDir(i) {
+		let pane = i % 3
+		switch (pane) {
+			case 0:
+				return 'fadeInLeft'
+			case 1:
+				return 'fadeInUp'
+			case 2:
+				return 'fadeInRight'
+			default:
+				console.log('error in getFadeDir', pane)
+				break;
+		}
+	}
+
 }

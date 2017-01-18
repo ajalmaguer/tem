@@ -120,7 +120,6 @@ export const pageData = {
 					panes: [
 						{
 							backgroundColor: '#004C91',
-							fadeDir: 'fadeInLeft',
 							icon: 'balance-scale',
 							header: 'Good ethics and morals',
 							bullets: [
@@ -128,21 +127,19 @@ export const pageData = {
 								'Loyalty',
 								'Pride and passion without arrogance',
 								'Open-mindedness and being respectful of others’ ideas',
-							],
+							]
 
 						}, {
 							backgroundColor: '#FFB100',
-							fadeDir: 'fadeInUp',
 							icon: 'users',
 							header: 'Family atmosphere with coworkers and customers',
 							bullets: [
 								'Open and honest internal and external communication',
 								'Laughter and fun with discretion',
-							],
+							]
 
 						}, {
 							backgroundColor: '#283954',
-							fadeDir: 'fadeInRight',
 							icon: 'thumbs-up',
 							header: '“We Do It Right” attitude',
 							bullets: [
@@ -150,26 +147,25 @@ export const pageData = {
 								'Amazing attention to detail',
 								'Focus on customer service',
 								'Presentation, organization, and cleanliness – professionalism and productivity',
-							],
+							]
 
 						}, {
 							backgroundColor: '#004C91',
-							fadeDir: 'fadeInLeft',
 							icon: 'envira',
 							header: 'Communal and environmentally attentive',
-							bullets: [],
+							bullets: []
 
 						}, {
 							backgroundColor: '#FFB100',
-							fadeDir: 'fadeInUp',
 							icon: 'line-chart',
 							header: 'High yet realistic expectations and goals',
 							bullets: [
 								'Continuous improvement for optimizing and maximizing what we do',
 								'Don’t be afraid to make a mistake or ask a question ',
-							],
+							]
 
 						}
+					]
 				}
 			}
 		]
@@ -179,7 +175,7 @@ export const pageData = {
 		elements: [
 			{
 				type: 'subheader',
-				data: 'Meet the members of our team'
+				data: 'A few reasons why we are one of the engineering and manufacturing firms you will find'
 			}, {
 				type: 'four-bulletpoints',
 				data: [
@@ -222,6 +218,138 @@ export const pageData = {
 					},
 				]
 			}, 
+		]
+	},
+	facility: {
+		pageTitle: 'Facility Listing',
+		elements: [
+			{
+				type: 'subheader',
+				data: "Below is a list of our equipment."
+			}, {
+				type: 'triple-panes',
+				data: {
+					panes: [
+						{
+							backgroundColor: '#004C91',
+							height: '730px',
+							header: 'Machining',
+							bullets: [
+								'Hyundai-Wia KBN 135',
+								'Mori Seiki SL-403 Fanuc Controlled CNC Lathe',
+								'King Mill 72" X 72" Vertical Turret Lathe',
+								'Cincinnati Arrow 1000 CNC',
+								'Hurco CNC Machining Center',
+								'G & L Horizontal Boring Mill',
+								'Cincinnati #4 Mill',
+								'Bridgeport Mills',
+								'Bridgeport EZPath CNC/Manual Lathe',
+								'Le Blonde Lathe',
+								'Lansing Lathe',
+								'Axelson Lathe',
+								'Monarch Lathe',
+								'Leeds Lathe',
+								'Pensotti Vertical Turret Lathe',
+								'Ceruti Horizontal Boring Mill',
+								'Treemill Journeyman 425 Machining Center'
+							]
+
+						}, {
+							backgroundColor: '#FFB100',
+							height: '730px',
+							header: 'Welding',
+							bullets: [
+								'Airco Welding Systems',
+								'Cobramatic M-3A Welding System',
+								'Lincoln Electric Power Wave S350 with Power Feed 25M',
+								'Miller Dialarc HF-P 300 AMP AC/DC',
+								'Miller SR-200 DC 300 AMP',
+								'Lincoln 250 AMP Aircraft Welder',
+								'Phoenix 300# Dry Rod Oven',
+								'Ranson Welding Positioners',
+								'Welding Turn Table Aircrafter',
+								'Aronson Turn Table #HD100B',
+								'Aronson Turn Table #HD30A',
+								'Cobra MK Welding System',
+								'Thermal Dynamics Plasma',
+								'Miller Syncrowave',
+							]
+
+						}, {
+							backgroundColor: '#283954',
+							height: '730px',
+							header: 'Forming/ Rolling',
+							bullets: [
+								'Cincinnati Press Brake',
+								'Henalley & Whittemore 72" DC Power Rolls',
+								'Randon Turning Rolls',
+								'Power Rolls',
+								'Pexto Rolls',
+								'Piranha - P50 Ironworker',
+							]
+
+						}, {
+							backgroundColor: '#004C91',
+							height: '730px',
+							header: 'Sawing/ Cutting',
+							bullets: [
+								'DoAll Precision Saw with Conveyor',
+								'DoAll Custom Band Saw',
+								'Kalamazoo TRL 300 Cold Saw',
+								'Promacut Friction Saw',
+								'Columbia Power Sheer',
+								'Delta 3 HP 10" Cut Off Saw with Table',
+							]
+
+						}, {
+							backgroundColor: '#FFB100',
+							height: '730px',
+							header: 'Inspection Equipment',
+							bullets: [
+								'Hydro Tester',
+								'Varian 956 PortaTest 2 - Vacuum Tester',
+								'Fastsniff Helium Sniffer',
+								'Roughing Pump',
+								'American Fitting Slates',
+								'Collins Microflat Granite Inspection Table',
+								'Inspection Height Gauges, Thread Gauges, Micrometers, etc.',
+								'A2LA Certified Calibrated tools',
+							]
+
+						}, {
+							backgroundColor: '#283954',
+							height: '730px',
+							header: 'Other Equipment',
+							bullets: [
+								'Avery Four Station Gauge Drill',
+								'Cincinnati Radial Arm Drill Press',
+								'American Hole Wizard, Radial Arm Drill Press',
+								'Fleetwood Drill Press',
+								'Manley 60 Ton Hydraulic Shop Press',
+								'Pullmax Model P5-2 Machine',
+								'Toledo #68 Port',
+								'Max 16" Disc Sander/Grinder',
+								'Delta Pedestal Grinder & Dust Collector',
+								'Cincinnati Model 101 Polishing Buffer',
+								'AutoCAD 13',
+								'SolidWorks 2013',
+								'FeatureCAM 2013',
+							]
+
+						}
+					]
+				}
+			}
+		]
+	},
+	contact: {
+		pageTitle: 'Contact',
+		elements: [
+			{
+				type: 'contact',
+				data: {}
+			},
+		]
 	}
 
 }
