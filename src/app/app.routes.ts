@@ -9,5 +9,5 @@ const APP_ROUTES: Routes = [
 	{ path: "**", redirectTo: "" }
 ]
 
-export const ROUTES = RouterModule.forRoot(APP_ROUTES)
-// export const routes = RouterModule.forRoot(APP_ROUTES, {useHash: true})
+// export const ROUTES = RouterModule.forRoot(APP_ROUTES)
+export const ROUTES = RouterModule.forRoot(APP_ROUTES, {useHash: true})
