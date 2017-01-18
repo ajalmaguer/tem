@@ -16,7 +16,6 @@ export class SubPagesComponent implements OnInit {
 		this.route.params.subscribe(params => {
 			let paramObject:any = params
 			this.currentPage = pageData[paramObject.id]
-			console.log('this.currentPage =', this.currentPage)
 		})
 	}
 
