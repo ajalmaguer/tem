@@ -1,8 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { ROUTES } from './app.routes'
+
+import { RecaptchaModule } from 'ng2-recaptcha';
+
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -41,8 +44,10 @@ import { ContactComponent } from './shared/contact/contact.component';
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpModule,
     ROUTES,
+	RecaptchaModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
