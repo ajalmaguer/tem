@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms'
 import { Http } from '@angular/http'
+import { environment } from '../../../environments/environment';
+
 
 @Component({
 	selector: 'tem-contact',
@@ -9,6 +11,11 @@ import { Http } from '@angular/http'
 })
 export class ContactComponent implements OnInit {
 	form: FormGroup
+	response: any = {
+		show: false,
+		status: true
+	}
+	@ViewChild('captcha') captcha: any
 
 	constructor(
 		private fb: FormBuilder, 
@@ -30,18 +37,31 @@ export class ContactComponent implements OnInit {
 	submitForm() {
 		let data = this.form.value
 
-		console.log('data.recaptcha', data.recaptcha)
+		// let url = 'http://localhost:3000/api/email'
+		let url = 'http://ajmail.herokuapp.com/api/email'
 
-		let url = 'http://localhost:3000/api/email'
 		if (this.form.valid && (data.recaptcha != null)) {
 			this.http.post(url, data).subscribe(
 				res => {
 					console.log('res =', res)
+					this.response.status = true
+					this.resetForm()
 				}, err => {
 					console.log('err =', err)
+					this.response.status = false
+					this.resetForm()
 				}
 			)
 		}
+	}
+
+	resetForm() {
+		this.response.show = true
+		this.captcha.reset()
+		this.form.reset()
+		setTimeout(() => {
+			this.response.show = false
+		}, 5000) 
 	}
 
 	resolvedRecaptcha(event) {
