@@ -13,7 +13,8 @@ export class HomeComponent implements OnInit {
 	hero: any = {
 		title 		: 'Terminal Engineering <br> & Manufacturing',
 		mainImage 	: 'assets/images/tem/hero_dark.png',
-		subImage 	: 'assets/images/tem/hero-sub.png',
+		subImage 	: '',
+		// subImage 	: 'assets/images/tem/hero-sub.png',
 		subtitle1 	: 'Engineering',
 		subtitle2 	: 'Manufacturing',
 		subtitle3 	: 'Project Management',

@@ -1,6 +1,7 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
 
 declare var jQuery
+declare var $
 var tpj = jQuery
 declare var revslider_showDoubleJqueryError
 
@@ -60,6 +61,13 @@ export class HeroComponent implements AfterViewInit {
 				}
 			});
 		}
+	}
+
+	scrollTo(id) {
+		console.log('scroll to', id)
+		$('html, body').animate({
+			scrollTop: $(id).offset().top
+		},1000)
 	}
 
 }
