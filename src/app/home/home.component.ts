@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
 	subTitle1 = "We are committed to quality assurance and customer service in all of our work, and we look forward to building long-term business relationships with you and your company.​"
 	history = {
 		backgroundImage: 'assets/images/tem/tem-building.png',
+		backgroundImageAlign: '100%',
 		title: 'Our History',
 		header1: '',
 		content1: 'For nearly 100 years, Terminal Manufacturing Company, LLC has produced quality machined parts and weldments for our customers. We are a leading innovator in product design and manufacturing; and our success is built around customer satisfaction and return clientele. <br><br>',

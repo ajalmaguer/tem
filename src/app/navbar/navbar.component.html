@@ -5,7 +5,7 @@
 		<div id="Top_bar">
 			<div class="one">
 				<div class="top_bar_left">
-					<div class="logo tem_logo" (click)="goTo(['/'], true)">
+					<div class="logo tem_logo" [routerLink]="['/']" (click)="goTo(true)">
 						<a id="logo logo-link" title="Terminal Engineering & Manufacturing">
 							<img class="logo-main scale-with-grid rect-logo" src="assets/images/tem/logo-rect.png" alt="Terminal Engineering & Manufacturing" />
 						</a>
@@ -13,26 +13,26 @@
 					<div class="menu_wrapper">
 						<nav id="menu" class="menu-main-menu-container">
 							<ul id="menu-main-menu" class="menu">
-								<li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item">
-									<a (click)="goTo(['/'])"><span>Home</span></a>
+								<li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-2">
+									<a routerLinkActive="yellowTxt" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/']" (click)="goTo()"><span>Home</span></a>
 								</li>
 								<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page">
-									<a (click)="goTo(['/company'])"><span>Company</span></a>
+									<a routerLinkActive="yellowTxt" [routerLink]="['/company']" (click)="goTo()"><span>Company</span></a>
 								</li>
 								<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page">
-									<a (click)="goTo(['/team'])"><span>Team</span></a>
+									<a routerLinkActive="yellowTxt" [routerLink]="['/team']" (click)="goTo()"><span>Team</span></a>
 								</li>
 								<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page">
-									<a (click)="goTo(['/certifications'])"><span>Certifications</span></a>
+									<a routerLinkActive="yellowTxt" [routerLink]="['/certifications']" (click)="goTo()"><span>Certifications</span></a>
 								</li>
 								<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page">
-									<a (click)="goTo(['/facility'])"><span>Facility Listing</span></a>
+									<a routerLinkActive="yellowTxt" [routerLink]="['/facility']" (click)="goTo()"><span>Facility Listing</span></a>
 								</li>
 								<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page">
 									<a><span>Projects</span></a>
 								</li>
 								<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page">
-									<a (click)="goTo(['/contact'])"><span>Contact</span></a>
+									<a routerLinkActive="yellowTxt" [routerLink]="['/contact']" (click)="goTo()"><span>Contact</span></a>
 								</li>
 							</ul>
 						</nav><a class="responsive-menu-toggle "><i class="icon-menu"></i></a>

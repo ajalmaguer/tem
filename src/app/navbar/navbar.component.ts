@@ -14,8 +14,7 @@ export class NavbarComponent implements OnInit {
 
 	ngOnInit() {}
 
-	goTo(route: any[], noToggleClick) {
-		this.router.navigate(route)
+	goTo(noToggleClick) {
 		window.scrollTo(0,0)
 		if (!noToggleClick) $(".responsive-menu-toggle").click()
 	}
