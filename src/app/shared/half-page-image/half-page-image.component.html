@@ -1,32 +1,15 @@
-<div class="section mcb-section highlight-left" [ngStyle]="{'background-image':'url(' + data?.backgroundImage + ')'}" style="padding-top:0px; padding-bottom:0px; background-repeat:no-repeat; background-position: left;  min-height: 615px; background-size: cover;">
-	<div class="section_wrapper mcb-section-inner">
-		<div class="wrap mcb-wrap one-second  valign-top clearfix" style="padding:70px 4% 30px">
-			<div class="mcb-wrap-inner">
-				<div class="column mcb-column one column_column  column-margin-30px">
-					<div class="column_attr">
-						<h2 style="color: #fff;">{{data?.title}}</h2>
-					</div>
-				</div>
-				<div class="column mcb-column column_column ">
-					<div class="column_attr" style=" padding:0 3% 0 0;">
-					<h4 style="color: #fff;" *ngIf="data?.header1">{{data?.header1}}</h4>
-						<p style="color: #fff; font-size:1.3em; line-height: 1.8em;" *ngIf="data?.content1">
-							{{data?.content1}}
-						</p>
-					</div>
-				</div>
-				<!-- <div class="column mcb-column one-second column_column ">
-					<div class="column_attr">
-						<h4 style="color: #fff;">{{data?.header2}}</h4>
-						<p style="color: #fff;">
-							{{data?.content2}}
-						</p>
-					</div>
-				</div> -->
-				<div class="column mcb-column one column_button" *ngIf="data?.buttonText">
-					<a class="button  button_size_2 button_js" href="#" style=" background-color:#57cd4b !important; color:#fff;"><span class="button_label">{{data?.buttonText}}</span></a>
-				</div>
-			</div>
+<div class="flexbox-container" hidden="true">
+	<div [ngStyle]="{'background-color': '#FFB101'}">
+		<div class="leftColumnContent">
+			<h2>{{data?.title}}</h2>
+			<br>
+
+			<h4 *ngIf="data?.header1">{{data?.header1}}</h4>
+			<p style="font-size:1.3em; line-height: 1.8em;" *ngIf="data?.content1" [innerHtml]="data?.content1">
+				
+			</p>
 		</div>
+	</div>
+	<div class="rightColumn" [ngStyle]="{'background-image':'url(' + data?.backgroundImage + ')'}">
 	</div>
 </div>
