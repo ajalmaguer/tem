@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
 		backgroundImageAlign: '100%',
 		title: 'Our History',
 		header1: '',
-		content1: 'For nearly 100 years, Terminal Manufacturing Company, LLC has produced quality machined parts and weldments for our customers. We are a leading innovator in product design and manufacturing; and our success is built around customer satisfaction and return clientele. <br><br>This year we have changed our name from "Terminal Manufacturing Company" to Terminal Engineering & Manufacturing.',
+		content1: 'For nearly 100 years, Terminal Manufacturing Company, LLC has produced quality machined parts and weldments for our customers. We are a leading innovator in product design and manufacturing; and our success is built around customer satisfaction and return clientele. <br><br>This year we have changed our name from Terminal Manufacturing Company to Terminal Engineering & Manufacturing in an effort to highlight our technical and management capabilities. Same company in our 99th year just with a new name to more accurately describe who we are at Terminal.',
 		header2: '',
 		content2: '',
 		buttonText: '',
