@@ -4,7 +4,7 @@ export const pageData = {
 		elements: [
 			{
 				type: 'subheader',
-				data: 'TMC is certified to design and manufacture to the following standards:'
+				data: 'TE&M is certified to design and manufacture to the following standards:'
 			}, {
 				type: 'four-bulletpoints',
 				data: [
@@ -42,7 +42,7 @@ export const pageData = {
 				type: 'offer',
 				side: 'left',
 				title: 'ASME Code Pressure Vessels',
-				bigParagraph: 'TMC holds the ASME \"U\" Stamp Certification conforming to ASME Code Section VIII, Division I for pressure vessel construction.',
+				bigParagraph: 'TE&M holds the ASME \"U\" Stamp Certification conforming to ASME Code Section VIII, Division I for pressure vessel construction.',
 				smallParagraph: '',
 				buttonText: '',
 				price: '',
@@ -53,7 +53,7 @@ export const pageData = {
 				type: 'offer',
 				side: 'right',
 				title: 'CSEI Pressure Vessels',
-				bigParagraph: 'TMC is certified by the China Special Equipment Inspection and Research Institute (CSEI) to import pressure vessels into the People\'s Republic of China.',
+				bigParagraph: 'TE&M is certified by the China Special Equipment Inspection and Research Institute (CSEI) to import pressure vessels into the People\'s Republic of China.',
 				smallParagraph: '',
 				buttonText: '',
 				price: '',
@@ -64,7 +64,7 @@ export const pageData = {
 				type: 'offer',
 				side: 'left',
 				title: 'European Pressure Equipment Directive (PED) Pressure Vessels',
-				bigParagraph: 'TMC is qualified to import PED Certified Pressure Vessels into Europe. The European PED (97/23/EC) provides the European legislative framework for any equipment subject to a pressure hazard.',
+				bigParagraph: 'TE&M is qualified to import PED Certified Pressure Vessels into Europe. The European PED (97/23/EC) provides the European legislative framework for any equipment subject to a pressure hazard.',
 				smallParagraph: '',
 				buttonText: '',
 				price: '',
@@ -75,7 +75,7 @@ export const pageData = {
 				type: 'offer',
 				side: 'right',
 				title: 'Korean Gas Safety (KGS) / MOCIE Pressure Vessels',
-				bigParagraph: 'TMC is certified by KGS / MOCIE (Korean Gas Safety Corporation / Ministry Of Commerce, Industry and Energy) to manufacture pressure vessels, heat exchangers, and related equipment for import into South Korea.',
+				bigParagraph: 'TE&M is certified by KGS / MOCIE (Korean Gas Safety Corporation / Ministry Of Commerce, Industry and Energy) to manufacture pressure vessels, heat exchangers, and related equipment for import into South Korea.',
 				smallParagraph: '',
 				buttonText: '',
 				price: '',
@@ -86,7 +86,7 @@ export const pageData = {
 				type: 'offer',
 				side: 'left',
 				title: 'Taiwan Code Pressure Vessels',
-				bigParagraph: 'TMC has manufactured and imported pressure vessels into Taiwan as certified by the Taiwan TBA/CBA inspectors.',
+				bigParagraph: 'TE&M has manufactured and imported pressure vessels into Taiwan as certified by the Taiwan TBA/CBA inspectors.',
 				smallParagraph: '',
 				buttonText: '',
 				price: '',
@@ -113,7 +113,7 @@ export const pageData = {
 					}
 			}, {
 				type: 'subheader',
-				data: 'At TMC we strive to continuously maintain and live by our five main core values.'
+				data: 'At TE&M we strive to continuously maintain and live by our five main core values.'
 			}, {
 				type: 'triple-panes',
 				data: {
@@ -185,12 +185,12 @@ export const pageData = {
 						title: 'Steve Mellinger',
 						subTitle: 'Owner',
 						image: 'assets/images/tem/team/steve.png',
-						text: 'TMC is an engineering / manufacturing firm with an emphasis on project management. We have our own machine shop and welding shop as well. We listen to our customer and put together a plan for a successful completion.'
+						text: 'TE&M is an engineering / manufacturing firm with an emphasis on project management. We have our own machine shop and welding shop as well. We listen to our customer and put together a plan for a successful completion.'
 					},{
 						title: 'Jonita Grace',
 						subTitle: 'Quality Assurance Manager',
 						image: 'assets/images/tem/team/jonita.png',
-						text: 'TMC is a mechanical engineering firm that designs and fabricates custom machined jobs. We do work for the biotech, semi conductor, food, nuclear industries and department of energy work. We do international business. We also have a trucking department that handles testing and repair of DOT trucks.'
+						text: 'TE&M is a mechanical engineering firm that designs and fabricates custom machined jobs. We do work for the biotech, semi conductor, food, nuclear industries and department of energy work. We do international business. We also have a trucking department that handles testing and repair of DOT trucks.'
 					}, {
 						title: 'John Ashburn',
 						subTitle: 'Engineer / Project Manager',
@@ -209,11 +209,11 @@ export const pageData = {
 						title: 'Jorge Valdez Sr.',
 						subTitle: 'Machine Shop Supervisor',
 						image: 'assets/images/tem/team/jorgesr.png',
-						text: 'I’m happy to work at Terminal Manufacturing Company.'
+						text: 'I’m happy to work at Terminal Manufacturing & Engineering.'
 					// }, {
 					// 	title: 'Jose',
 					// 	image: 'assets/images/tem/team/jose.png',
-					// 	text: 'Para mi, es una compania llena de oportunidades. For me, TMC is a company full of opportunities for their workers.'
+					// 	text: 'Para mi, es una compania llena de oportunidades. For me, TE&M is a company full of opportunities for their workers.'
 					// }, {
 					// 	title: 'Isaac',
 					// 	image: 'assets/images/tem/team/isaac.png',
@@ -346,9 +346,8 @@ export const pageData = {
 								'Max 16" Disc Sander/Grinder',
 								'Delta Pedestal Grinder & Dust Collector',
 								'Cincinnati Model 101 Polishing Buffer',
-								'AutoCAD 13',
-								'SolidWorks 2013',
-								'FeatureCAM 2013',
+								'SolidWorks 2016',
+								'FeatureCAM 2016',
 							]
 
 						}
