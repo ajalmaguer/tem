@@ -131,6 +131,7 @@ export const pageData = {
 
 						}, {
 							backgroundColor: '#FFB100',
+							color: '#283954',
 							icon: 'users',
 							header: 'Family atmosphere with coworkers and customers',
 							bullets: [
@@ -157,6 +158,7 @@ export const pageData = {
 
 						}, {
 							backgroundColor: '#FFB100',
+							color: '#283954',
 							icon: 'line-chart',
 							header: 'High yet realistic expectations and goals',
 							bullets: [
@@ -180,41 +182,52 @@ export const pageData = {
 				type: 'four-bulletpoints',
 				data: [
 					{
-						title: 'Steve',
+						title: 'Steve Mellinger',
+						subTitle: 'Owner',
 						image: 'assets/images/tem/team/steve.png',
 						text: 'TMC is an engineering / manufacturing firm with an emphasis on project management. We have our own machine shop and welding shop as well. We listen to our customer and put together a plan for a successful completion.'
 					},{
-						title: 'Jonita',
+						title: 'Jonita Grace',
+						subTitle: 'Quality Assurance Manager',
 						image: 'assets/images/tem/team/jonita.png',
 						text: 'TMC is a mechanical engineering firm that designs and fabricates custom machined jobs. We do work for the biotech, semi conductor, food, nuclear industries and department of energy work. We do international business. We also have a trucking department that handles testing and repair of DOT trucks.'
 					}, {
-						title: 'John',
+						title: 'John Ashburn',
+						subTitle: 'Engineer / Project Manager',
 						image: 'assets/images/tem/team/john.png',
 						text: 'A really neat little shop that makes all kinds of interesting things.'
 					}, {
-						title: 'Raelene',
-						image: 'assets/images/tem/team/raelene.png',
-						text: 'We do custom high pressure vessels along with parts for DOE. We have a fab and machine shop and also do truck tank testing.'
-					}, {
-						title: 'Yin',
+					// 	title: 'Raelene',
+					// 	image: 'assets/images/tem/team/raelene.png',
+					// 	text: 'We do custom high pressure vessels along with parts for DOE. We have a fab and machine shop and also do truck tank testing.'
+					// }, {
+						title: 'Yin Shen',
+						subTitle: 'CNC Machining Supervisor',
 						image: 'assets/images/tem/team/yin.png',
 						text: 'We have the best machine technology and do all color material.'
 					}, {
-						title: 'Jorge Sr.',
+						title: 'Jorge Valdez Sr.',
+						subTitle: 'Machine Shop Supervisor',
 						image: 'assets/images/tem/team/jorgesr.png',
 						text: 'I’m happy to work at Terminal Manufacturing Company.'
+					// }, {
+					// 	title: 'Jose',
+					// 	image: 'assets/images/tem/team/jose.png',
+					// 	text: 'Para mi, es una compania llena de oportunidades. For me, TMC is a company full of opportunities for their workers.'
+					// }, {
+					// 	title: 'Isaac',
+					// 	image: 'assets/images/tem/team/isaac.png',
+					// 	text: 'Terminal Manufacturing is an engineering company whose goal is to offer the best possible customer service in manufacturing by understanding their aches and pains and utilize skills in engineering, project management, and manufacturing to arrive at a solution.'
 					}, {
-						title: 'Jose',
-						image: 'assets/images/tem/team/jose.png',
-						text: 'Para mi, es una compania llena de oportunidades. For me, TMC is a company full of opportunities for their workers.'
-					}, {
-						title: 'Isaac',
-						image: 'assets/images/tem/team/isaac.png',
-						text: 'Terminal Manufacturing is an engineering company whose goal is to offer the best possible customer service in manufacturing by understanding their aches and pains and utilize skills in engineering, project management, and manufacturing to arrive at a solution.'
-					}, {
-						title: 'Jimmy',
+						title: 'Jimmy Manos',
+						subTitle: 'Welder & Fabricator / Safety Manager',
 						image: 'assets/images/tem/team/jimmy.png',
 						text: 'Terminal is a group of professionals that takes responsibility for our products. We have diverse skills and cater to diverse customers.'
+					}, {
+						title: 'Kevin Cole',
+						subTitle: 'Trucking Manager',
+						image: 'assets/images/tem/team/kevin.png',
+						text: 'I really enjoy the people that I work with. And I have great relationships with all of my customers. A lot of stuff that we make here is different all the time it’s not the same thing day after day after day which is good. Did I mention it will be 20 years this year?'
 					},
 				]
 			}, 
@@ -256,6 +269,7 @@ export const pageData = {
 
 						}, {
 							backgroundColor: '#FFB100',
+							color: '#283954',
 							height: '730px',
 							header: 'Welding',
 							bullets: [
@@ -303,6 +317,7 @@ export const pageData = {
 
 						}, {
 							backgroundColor: '#FFB100',
+							color: '#283954',
 							height: '730px',
 							header: 'Inspection Equipment',
 							bullets: [

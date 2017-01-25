@@ -10,16 +10,18 @@
 		<div class="wrap mcb-wrap one-third  valign-top clearfix" style="padding:0 1%" *ngFor="let pane of data?.panes; let i = index;">
 			<div class="mcb-wrap-inner">
 				<div class="column mcb-column one column_column ">
-					<div class="column_attr animate" [attr.data-anim-type]="getFadeDir(i)" [ngStyle]="{'background-color': pane.backgroundColor}" style="padding:50px 35px 20px;" [style.height]="getMinHeight(pane.height)">
-						<div class="paneIcon" *ngIf="pane.icon">
+					<div class="column_attr animate" [attr.data-anim-type]="getFadeDir(i)" [ngStyle]="{'background-color': pane.backgroundColor, 'color': pane.color}" style="padding:50px 35px 20px;" [style.height]="getMinHeight(pane.height)">
+						<div class="paneIcon" *ngIf="pane.icon" [ngStyle]="{color: pane.color ? pane.color: '#fff'}">
 							<i class="fa fa-{{pane.icon}}" aria-hidden="true"></i>
 						</div>
 
-						<h3>
-							<a style="color: #fff;" href="#">{{pane.header}}</a>
+						<h3 style="text-align: center;">
+							<a style="color: #fff;" [ngStyle]="{color: pane.color ? pane.color: '#fff'}">
+								{{pane.header}}
+							</a>
 						</h3>
 
-						<ul style="color: #fff">
+						<ul style="color: #fff;" [ngStyle]="{color: pane.color ? pane.color: '#fff'}">
 							<li *ngFor="let bullet of pane.bullets">{{bullet}}</li>
 						</ul>
 						
