@@ -26,7 +26,8 @@
         "assets/css/structure.css",
         "assets/css/seo2.css",
         "assets/css/custom.css",
-        "assets/css/font-awesome.min.css"
+        "assets/css/font-awesome.min.css",
+        "../node_modules/lightbox2/dist/css/lightbox.min.css"
       ],
       "scripts": [
         "assets/js/jquery-2.1.4.min.js",
@@ -45,7 +46,8 @@
         "assets/rs-plugin/js/extensions/revolution.extension.kenburn.min.js",
         "assets/rs-plugin/js/extensions/revolution.extension.navigation.min.js",
         "assets/rs-plugin/js/extensions/revolution.extension.migration.min.js",
-        "assets/rs-plugin/js/extensions/revolution.extension.parallax.min.js"
+        "assets/rs-plugin/js/extensions/revolution.extension.parallax.min.js",
+        "../node_modules/lightbox2/dist/js/lightbox.min.js"
       ],
       "environments": {
         "source": "environments/environment.ts",

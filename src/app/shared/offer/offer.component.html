@@ -58,7 +58,9 @@
 					</div>
 					<div  class="column mcb-column one-third column_column" *ngIf="content.subImg">
 						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding: 10%; cursor: pointer;">
-							<img [src]="content.subImg" style="width: 100%;">
+							<a [href]="content.subImg" data-lightbox="offer">
+								<img [src]="content.subImg" style="width: 100%;">
+							</a>
 						</div>
 					</div>
 				</div>
@@ -88,7 +90,9 @@
 					</div>
 					<div  class="column mcb-column one-third column_column" *ngIf="content.subImg">
 						<div class="column_attr align_center" style=" background-color:#f2f2f2; padding: 10%; cursor: pointer;">
-							<img [src]="content.subImg" style="width: 100%;">
+							<a [href]="content.subImg" data-lightbox="offer">
+								<img [src]="content.subImg" style="width: 100%;">
+							</a>
 						</div>
 					</div>
 					<div class="column mcb-column two-third column_column ">
