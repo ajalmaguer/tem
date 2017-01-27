@@ -353,6 +353,24 @@ export const pageData = {
 						}
 					]
 				}
+			}, {
+				type: 'gallery',
+				data: {
+					images: [
+						'/assets/images/tem/facility/te&m_facility_1.jpg',
+						'/assets/images/tem/facility/te&m_facility_10.jpg',
+						'/assets/images/tem/facility/te&m_facility_12.jpg',
+						'/assets/images/tem/facility/te&m_facility_14.jpg',
+						'/assets/images/tem/facility/te&m_facility_15.jpg',
+						'/assets/images/tem/facility/te&m_facility_16.jpg',
+						'/assets/images/tem/facility/te&m_facility_2.jpg',
+						'/assets/images/tem/facility/te&m_facility_3.jpg',
+						'/assets/images/tem/facility/te&m_facility_5.jpg',
+						'/assets/images/tem/facility/te&m_facility_7.jpg',
+						'/assets/images/tem/facility/te&m_facility_8.jpg',
+						'/assets/images/tem/facility/te&m_facility_9.jpg',
+					]
+				}
 			}
 		]
 	},
