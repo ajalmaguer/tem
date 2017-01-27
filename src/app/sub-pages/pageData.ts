@@ -390,7 +390,6 @@ export const pageData = {
 				type: 'gallery',
 				data: {
 					images: [
-						'assets/images/tem/gallery/te&m_project_1.jpg',
 						'assets/images/tem/gallery/te&m_project_26.jpg',
 						'assets/images/tem/gallery/te&m_project_42.jpg',
 						'assets/images/tem/gallery/te&m_project_10.jpg',
