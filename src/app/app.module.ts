@@ -22,6 +22,7 @@ import { HalfPageImageComponent } from './shared/half-page-image/half-page-image
 import { FourColumnComponent } from './shared/four-column/four-column.component';
 import { SubheaderComponent } from './shared/subheader/subheader.component';
 import { ContactComponent } from './shared/contact/contact.component';
+import { GalleryComponent } from './shared/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ContactComponent } from './shared/contact/contact.component';
     FourColumnComponent,
     SubheaderComponent,
     ContactComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,7 @@ import { ContactComponent } from './shared/contact/contact.component';
     ReactiveFormsModule,
     HttpModule,
     ROUTES,
-	RecaptchaModule.forRoot()
+	  RecaptchaModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

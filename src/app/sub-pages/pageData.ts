@@ -364,6 +364,70 @@ export const pageData = {
 				data: {}
 			},
 		]
+	},
+	projects: {
+		pageTitle: 'Projects',
+		elements: [
+			{
+				type: 'gallery',
+				data: {
+					images: [
+						'assets/images/tem/gallery/te&m_project_1.jpg',
+						'assets/images/tem/gallery/te&m_project_26.jpg',
+						'assets/images/tem/gallery/te&m_project_42.jpg',
+						'assets/images/tem/gallery/te&m_project_10.jpg',
+						'assets/images/tem/gallery/te&m_project_27.jpg',
+						'assets/images/tem/gallery/te&m_project_43.jpg',
+						'assets/images/tem/gallery/te&m_project_11.jpg',
+						'assets/images/tem/gallery/te&m_project_28.jpg',
+						'assets/images/tem/gallery/te&m_project_44.jpg',
+						'assets/images/tem/gallery/te&m_project_12.jpg',
+						'assets/images/tem/gallery/te&m_project_29.jpg',
+						'assets/images/tem/gallery/te&m_project_45.jpg',
+						'assets/images/tem/gallery/te&m_project_13.jpg',
+						'assets/images/tem/gallery/te&m_project_3.jpg',
+						'assets/images/tem/gallery/te&m_project_46.jpg',
+						'assets/images/tem/gallery/te&m_project_14.jpg',
+						'assets/images/tem/gallery/te&m_project_30.jpg',
+						'assets/images/tem/gallery/te&m_project_47.jpg',
+						'assets/images/tem/gallery/te&m_project_15.jpg',
+						'assets/images/tem/gallery/te&m_project_31.jpg',
+						'assets/images/tem/gallery/te&m_project_48.jpg',
+						'assets/images/tem/gallery/te&m_project_16.jpg',
+						'assets/images/tem/gallery/te&m_project_32.jpg',
+						'assets/images/tem/gallery/te&m_project_49.jpg',
+						'assets/images/tem/gallery/te&m_project_17.jpg',
+						'assets/images/tem/gallery/te&m_project_33.jpg',
+						'assets/images/tem/gallery/te&m_project_5.jpg',
+						'assets/images/tem/gallery/te&m_project_18.jpg',
+						'assets/images/tem/gallery/te&m_project_34.jpg',
+						'assets/images/tem/gallery/te&m_project_50.jpg',
+						'assets/images/tem/gallery/te&m_project_19.jpg',
+						'assets/images/tem/gallery/te&m_project_35.jpg',
+						'assets/images/tem/gallery/te&m_project_51.jpg',
+						'assets/images/tem/gallery/te&m_project_2.jpg',
+						'assets/images/tem/gallery/te&m_project_36.jpg',
+						'assets/images/tem/gallery/te&m_project_52.jpg',
+						'assets/images/tem/gallery/te&m_project_20.jpg',
+						'assets/images/tem/gallery/te&m_project_37.jpg',
+						'assets/images/tem/gallery/te&m_project_6.jpg',
+						'assets/images/tem/gallery/te&m_project_21.jpg',
+						'assets/images/tem/gallery/te&m_project_38.jpg',
+						'assets/images/tem/gallery/te&m_project_7.jpg',
+						'assets/images/tem/gallery/te&m_project_22.jpg',
+						'assets/images/tem/gallery/te&m_project_39.jpg',
+						'assets/images/tem/gallery/te&m_project_8.jpg',
+						'assets/images/tem/gallery/te&m_project_23.jpg',
+						'assets/images/tem/gallery/te&m_project_4.jpg',
+						'assets/images/tem/gallery/te&m_project_9.jpg',
+						'assets/images/tem/gallery/te&m_project_24.jpg',
+						'assets/images/tem/gallery/te&m_project_40.jpg',
+						'assets/images/tem/gallery/te&m_project_25.jpg',
+						'assets/images/tem/gallery/te&m_project_41.jpg',
+					]
+				}
+			}
+		]
 	}
 
 }

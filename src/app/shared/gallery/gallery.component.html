@@ -1,0 +1,15 @@
+<br>
+<br>
+<div class="section mcb-section">
+	<div class="section_wrapper mcb-section-inner">
+		<div *ngFor="let imageUrl of data.images" class="wrap mcb-wrap one-fourth valign-top clearfix" style="padding:0 2% 0 0">
+			<div class="mcb-wrap-inner">
+				<a [href]="imageUrl" data-lightbox="gallery">
+					<div class="card" [ngStyle]="{'background-image': 'url('+ imageUrl +')'}">
+						
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
