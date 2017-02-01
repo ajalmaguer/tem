@@ -23,6 +23,7 @@ import { FourColumnComponent } from './shared/four-column/four-column.component'
 import { SubheaderComponent } from './shared/subheader/subheader.component';
 import { ContactComponent } from './shared/contact/contact.component';
 import { GalleryComponent } from './shared/gallery/gallery.component';
+import { SpacerComponent } from './shared/spacer/spacer.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { GalleryComponent } from './shared/gallery/gallery.component';
     SubheaderComponent,
     ContactComponent,
     GalleryComponent,
+    SpacerComponent,
   ],
   imports: [
     BrowserModule,

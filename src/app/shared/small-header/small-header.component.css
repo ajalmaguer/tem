@@ -1,7 +1,13 @@
 #small-header {
     background-image: url(assets/images/home_seo2_subheader.png);
+
 }
 
 .height252 {
 	height: 252px;
+}
+
+.headerText {
+	position: relative;
+    bottom: 30px;
 }

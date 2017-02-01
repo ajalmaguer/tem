@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
 		subtitle3 	: 'Project Management',
 		button 		: 'We have a new name!',
 	}
-	subTitle1 = "We are committed to quality assurance and customer service in all of our work, and we look forward to building long-term business relationships with you and your company.​"
+	subTitle1 = "We are committed to quality assurance and customer service in all of our work."
 	history = {
 		backgroundImage: 'assets/images/tem/tem-building.png',
 		backgroundImageAlign: '100%',

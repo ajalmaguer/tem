@@ -36,7 +36,6 @@ export class ContactComponent implements OnInit, AfterViewInit {
 	}
 
 	ngAfterViewInit() {
-		console.log('hello')
 		var terminal = {lat: 37.879034, lng: -122.304205};
 		var map = new google.maps.Map(document.getElementById('map'), {
 			zoom: 11,

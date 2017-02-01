@@ -32,10 +32,6 @@ export const pageData = {
 						title: '10 CFR 50, Appendix B',
 						image: '',
 						text: ''
-					},{
-						title: 'ASME Section VIII, Division I - U Stamp',
-						image: '',
-						text: ''
 					},
 				]
 			}, {
@@ -153,7 +149,7 @@ export const pageData = {
 						}, {
 							backgroundColor: '#004C91',
 							icon: 'envira',
-							header: 'Communal and environmentally attentive',
+							header: 'Communally and environmentally attentive',
 							bullets: []
 
 						}, {
@@ -177,7 +173,7 @@ export const pageData = {
 		elements: [
 			{
 				type: 'subheader',
-				data: 'A few reasons why we are one of the engineering and manufacturing firms you will find'
+				data: 'A few reasons why we are one of the best engineering and manufacturing firms you will find'
 			}, {
 				type: 'four-bulletpoints',
 				data: [
@@ -237,8 +233,8 @@ export const pageData = {
 		pageTitle: 'Facility Listing',
 		elements: [
 			{
-				type: 'subheader',
-				data: "Below is a list of our equipment."
+				type: 'spacer',
+				data: 2
 			}, {
 				type: 'triple-panes',
 				data: {
@@ -354,6 +350,9 @@ export const pageData = {
 					]
 				}
 			}, {
+				type: 'subheader',
+				data: 'Please contact tmci@terminalmanufacturing.com for a printable version of our facility listing.'
+			}, {
 				type: 'gallery',
 				data: {
 					images: [
@@ -390,6 +389,9 @@ export const pageData = {
 				type: 'gallery',
 				data: {
 					images: [
+						'assets/images/tem/gallery/te&m_project_52.jpg',
+						'assets/images/tem/gallery/te&m_project_22.jpg',
+						'assets/images/tem/gallery/te&m_project_4.jpg',
 						'assets/images/tem/gallery/te&m_project_26.jpg',
 						'assets/images/tem/gallery/te&m_project_42.jpg',
 						'assets/images/tem/gallery/te&m_project_10.jpg',
@@ -424,18 +426,15 @@ export const pageData = {
 						'assets/images/tem/gallery/te&m_project_51.jpg',
 						'assets/images/tem/gallery/te&m_project_2.jpg',
 						'assets/images/tem/gallery/te&m_project_36.jpg',
-						'assets/images/tem/gallery/te&m_project_52.jpg',
 						'assets/images/tem/gallery/te&m_project_20.jpg',
 						'assets/images/tem/gallery/te&m_project_37.jpg',
 						'assets/images/tem/gallery/te&m_project_6.jpg',
 						'assets/images/tem/gallery/te&m_project_21.jpg',
 						'assets/images/tem/gallery/te&m_project_38.jpg',
 						'assets/images/tem/gallery/te&m_project_7.jpg',
-						'assets/images/tem/gallery/te&m_project_22.jpg',
 						'assets/images/tem/gallery/te&m_project_39.jpg',
 						'assets/images/tem/gallery/te&m_project_8.jpg',
 						'assets/images/tem/gallery/te&m_project_23.jpg',
-						'assets/images/tem/gallery/te&m_project_4.jpg',
 						'assets/images/tem/gallery/te&m_project_9.jpg',
 						'assets/images/tem/gallery/te&m_project_24.jpg',
 						'assets/images/tem/gallery/te&m_project_40.jpg',
