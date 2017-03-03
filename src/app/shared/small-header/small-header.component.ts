@@ -13,4 +13,8 @@ export class SmallHeaderComponent implements OnInit {
 	ngOnInit() {
 	}
 
+	uppercase(str: string) {
+		return str.toUpperCase();
+	}
+
 }

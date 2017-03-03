@@ -20,13 +20,13 @@ export class HomeComponent implements OnInit {
 		subtitle3 	: 'Project Management',
 		button 		: 'We have a new name!',
 	}
-	subTitle1 = "We are committed to quality assurance and customer service in all of our work."
+	subTitle1 = 'We are committed to quality assurance and customer service in all of our work.'
 	history = {
 		backgroundImage: 'assets/images/tem/tem-building.png',
 		backgroundImageAlign: '100%',
 		title: 'Our History',
 		header1: '',
-		content1: 'For nearly 100 years, Terminal Manufacturing Company, LLC has produced quality machined parts and weldments for our customers. We are a leading innovator in product design and manufacturing; and our success is built around customer satisfaction and return clientele. <br><br>This year we have changed our name from Terminal Manufacturing Company to Terminal Engineering & Manufacturing in an effort to highlight our technical and management capabilities. Same company in our 99th year just with a new name to more accurately describe who we are at Terminal.',
+		content1: 'For nearly 100 years, Terminal Manufacturing Company, LLC has produced quality machined parts and weldments for our customers. We are a leading innovator in product design and manufacturing; and our success is built around customer satisfaction and return clientele. <br><br>This year we have changed our name from Terminal Manufacturing Company, LLC to Terminal Engineering & Manufacturing. After 99 years in business we want to more accurately describe and highlight our technical and management capabilities. At TE&M, we are an engineering, project management, and manufacturing firm with quality assurance as our core.',
 		header2: '',
 		content2: '',
 		buttonText: '',

@@ -40,9 +40,6 @@
 			
 			iframesHeight();
 			
-			// Isotope | Relayout
-			jQuery('.masonry.isotope').isotope();
-			jQuery('.masonry.gallery').isotope( 'layout');
 		
 			// Zoom Box | Vertical Align
 			zoomBoxVerticalAlign();
@@ -572,7 +569,6 @@
 			
 			// debouncedresize
 			
-			jQuery( window ).on( 'debouncedresize', reload );
 			
 			
 		}
@@ -906,59 +902,6 @@
 			});
 		}
 		
-		
-		/* ---------------------------------------------------------------------------
-		 * Ajax | Load More
-		 * --------------------------------------------------------------------------- */
-		jQuery('.pager_load_more').click(function(e){
-			e.preventDefault();
-			
-			var el = jQuery(this);
-			var pager = el.closest('.pager_lm');
-			var href = el.attr('href');
-			
-			// index | for many items on the page
-			var index = jQuery('.lm_wrapper').index(el.closest('.isotope_wrapper').find('.lm_wrapper'));
-
-			el.fadeOut(50);
-			pager.addClass('loading');
-			
-			$.get( href, function(data){
-
-				// content
-				var content = jQuery('.lm_wrapper:eq('+ index +')', data).wrapInner('').html();
-
-				if( jQuery('.lm_wrapper:eq('+ index +')').hasClass('isotope') ){
-					// isotope
-					jQuery('.lm_wrapper:eq('+ index +')').append( jQuery(content) ).isotope( 'reloadItems' ).isotope({ sortBy: 'original-order' });
-				} else {
-					// default
-					jQuery( content ).hide().appendTo('.lm_wrapper:eq('+ index +')').fadeIn(1000);
-				}
-				
-				// next page link
-				href = jQuery( '.pager_load_more:eq('+ index +')', data ).attr('href');		
-				pager.removeClass('loading');					
-				if( href ){
-					el.fadeIn();
-					el.attr( 'href', href );
-				}
-
-				// refresh some staff -------------------------------
-				mfn_jPlayer();
-				iframesHeight();	
-				mfn_sidebar();
-				
-				// isotope fix: second resize
-				setTimeout(function(){
-					jQuery('.lm_wrapper.isotope').isotope( 'reLayout');
-				},1000);				
-				
-			});
-
-		});
-	
-		
 		/* ---------------------------------------------------------------------------
 		 * Blog & Portfolio filters
 		 * --------------------------------------------------------------------------- */
@@ -1216,106 +1159,8 @@
 		/* ---------------------------------------------------------------------------
 		 * Debouncedresize
 		 * --------------------------------------------------------------------------- */
-		jQuery(window).bind("debouncedresize", function() {
-			
-			iframesHeight();	
-			jQuery('.masonry.isotope,.isotope').isotope();
-			
-			// carouFredSel wrapper Height set
-			mfn_carouFredSel_height();
-			
-			// Sidebar Height
-			mfn_sidebar();
-			
-			// Sliding Footer | Height
-			mfn_footer();
-			
-			// Header Width
-			mfn_header();
-			
-			// Full Screen Section
-			mfn_sectionH();
-			
-			// niceScroll | Padding right fix for short content
-			niceScrollFix();
-		});
 		
-		/* ---------------------------------------------------------------------------
-		 * isotope
-		 * --------------------------------------------------------------------------- 
-		function isotopeFilter( domEl, isoWrapper ){
-			var filter = domEl.attr('data-rel');
-			isoWrapper.isotope({ filter: filter });
-		}
-		
-		jQuery('.isotope-filters .filters_wrapper').find('li:not(.close) a').click(function(e){
-			e.preventDefault();
-			isotopeFilter( jQuery(this), jQuery('.isotope') );
-		});
-		jQuery('.isotope-filters .filters_buttons').find('li.reset a').click(function(e){
-			e.preventDefault();
-			isotopeFilter( jQuery(this), jQuery('.isotope') );
-		});
-		
-		// carouFredSel wrapper | Height
-		mfn_carouFredSel_height();
-		
-		// Sidebar | Height
-		mfn_sidebar();
-		
-		// Sliding Footer | Height
-		mfn_footer();
-		
-		// Header | Width
-		mfn_header();
 
-		// Full Screen Section
-		mfn_sectionH();
-		
-		// Navigation | Hash
-		hashNav();
-	});
-	*/
-	
-		/* ---------------------------------------------------------------------------
-		 * Isotope
-		 * --------------------------------------------------------------------------- */
-		
-		// Isotope | Fiters
-		function isotopeFilter( domEl, isoWrapper ){
-			var filter = domEl.attr('data-rel');
-			isoWrapper.isotope({ filter: filter });
-		}
-		
-		// Isotope | Fiters | Click
-		jQuery('.isotope-filters .filters_wrapper').find('li:not(.close) a').click(function(e){
-			e.preventDefault();
-
-			var filters = jQuery(this).closest('.isotope-filters');
-			var parent  = filters.attr('data-parent');
-			
-			if( parent ){
-				parent = filters.closest( '.' + parent );
-				var isoWrapper = parent.find('.isotope').first()
-			} else {
-				var isoWrapper = jQuery('.isotope');
-			}
-			
-			filters.find('li').removeClass('current-cat');
-			jQuery(this).closest('li').addClass('current-cat');
-
-			isotopeFilter( jQuery(this), isoWrapper );
-		});
-
-		
-		// Isotope | Fiters | Reset
-		jQuery('.isotope-filters .filters_buttons').find('li.reset a').click(function(e){
-			e.preventDefault();
-			
-			jQuery('.isotope-filters .filters_wrapper').find('li').removeClass('current-cat');
-			isotopeFilter( jQuery(this), jQuery('.isotope') );
-		});
-		
 		
 		// carouFredSel wrapper | Height
 		mfn_carouFredSel_height();
@@ -1338,49 +1183,11 @@
 		// Equal Columns | Height
 		//mfn_equalH();
 	});
-	
-	/* --------------------------------------------------------------------------------------------------------------------------
-	 * jQuery(window).scroll
-	 * ----------------------------------------------------------------------------------------------------------------------- */
-	jQuery(window).scroll(function(){
 		
-			mfn_stickyH();
-
-		mfn_sticky();
-		onePageActive();
-	});
-	
-	
 	/* --------------------------------------------------------------------------------------------------------------------------
 	 * jQuery(window).load
 	 * ----------------------------------------------------------------------------------------------------------------------- */
 	jQuery(window).load(function(){
-		
-		
-
-		/* ---------------------------------------------------------------------------
-		 * Isotope
-		 * --------------------------------------------------------------------------- */
-		// Portfolio - Isotope
-		jQuery('.portfolio_wrapper  .isotope:not(.masonry-flat)').isotope({
-			itemSelector	: '.portfolio-item',
-			layoutMode		: 'fitRows'
-		});
-		
-		// Portfolio - Masonry Flat
-		jQuery('.portfolio_wrapper .masonry-flat').isotope({
-			itemSelector	: '.portfolio-item',
-			masonry			: {
-			      columnWidth: 1
-		    }
-		});
-
-		// Blog & Portfolio - Masonry
-		jQuery('.masonry.isotope').isotope({
-			itemSelector	: '.isotope-item',
-			layoutMode		: 'masonry'
-		});
-
 		
 		/* ---------------------------------------------------------------------------
 		 * Chart
@@ -2011,7 +1818,6 @@ window.mfn_nicescroll = 25;
 
 
 				jQuery(document).ready(function($) {
-					jQuery('.masonry.isotope,.isotope').isotope();
 					
 					jQuery('#configurator .control').click(function(e) {
 						e.preventDefault();

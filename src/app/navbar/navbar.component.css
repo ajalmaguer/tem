@@ -31,6 +31,7 @@
 	}
 
 	.top_bar_left {
+		width: 100% !important;
 		padding-top: 10px;
 	    padding-bottom: 4px;
 	}
