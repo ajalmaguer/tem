@@ -179,12 +179,12 @@ export const pageData = {
 				data: [
 					{
 						title: 'Steve Mellinger',
-						subTitle: 'Owner',
+						subTitle: 'Owner/ Engineer',
 						image: 'assets/images/tem/team/steve.png',
 						text: 'TE&M is an engineering / manufacturing firm with an emphasis on project management. We have our own machine shop and welding shop as well. We listen to our customer and put together a plan for a successful completion.'
 					},{
 						title: 'Jonita Grace',
-						subTitle: 'Quality Assurance Manager',
+						subTitle: 'Quality Control Manager',
 						image: 'assets/images/tem/team/jonita.png',
 						text: 'TE&M is a mechanical engineering firm that designs and fabricates custom machined jobs. We do work for the biotech, semi conductor, food, nuclear industries and department of energy work. We do international business. We also have a trucking department that handles testing and repair of DOT trucks.'
 					}, {
@@ -192,6 +192,11 @@ export const pageData = {
 						subTitle: 'Engineer / Project Manager',
 						image: 'assets/images/tem/team/john.png',
 						text: 'A really neat little shop that makes all kinds of interesting things.'
+					}, {
+						title: 'Kristen Hatch',
+						subTitle: 'Sales / Project Manager',
+						image: 'assets/images/tem/team/kristen.png',
+						text: 'TMC is a fabricator / machine shop that can do small and large custom machined parts. We are certified to the following: 10CFR21/50 Appendix B, NQA-1, ASME U-stamp work, KGS/PED vessels.'
 					}, {
 					// 	title: 'Raelene',
 					// 	image: 'assets/images/tem/team/raelene.png',
