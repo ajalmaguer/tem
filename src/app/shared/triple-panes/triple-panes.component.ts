@@ -53,4 +53,8 @@ export class TriplePanesComponent implements OnInit {
 		}
 	}
 
+	shouldMoveRight(i, length) {
+		return (length - i === 2) && (length % 3 !== 0)
+	}
+
 }
