@@ -3,6 +3,8 @@
 }
 
 #Header .top_bar_left,.header-classic #Top_bar,.header-plain #Top_bar,.header-stack #Top_bar,.header-split #Top_bar,.header-fixed #Top_bar,.header-below #Top_bar,#Header_creative,#Top_bar #menu,.sticky-tb-color #Top_bar.is-sticky {
+	/* white navbar */
+    /*background-color: #fff;*/
     background-color: #01508D;
 }
 
@@ -11,6 +13,8 @@
 }
 
 #Top_bar .menu > li > a {
+	/* white navbar */
+    /*color: #01508D; */
     color: #fff;
 }
 
