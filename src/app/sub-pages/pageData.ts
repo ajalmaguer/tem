@@ -382,6 +382,9 @@ export const pageData = {
 		pageTitle: 'Contact',
 		elements: [
 			{
+				type: 'contact-panels',
+				data: {}
+			}, {
 				type: 'contact',
 				data: {}
 			},

@@ -22,6 +22,7 @@ import { HalfPageImageComponent } from './shared/half-page-image/half-page-image
 import { FourColumnComponent } from './shared/four-column/four-column.component';
 import { SubheaderComponent } from './shared/subheader/subheader.component';
 import { ContactComponent } from './shared/contact/contact.component';
+import { ContactPanelsComponent } from './shared/contact-panels/contact-panels.component';
 import { GalleryComponent } from './shared/gallery/gallery.component';
 import { SpacerComponent } from './shared/spacer/spacer.component';
 
@@ -42,6 +43,7 @@ import { SpacerComponent } from './shared/spacer/spacer.component';
     FourColumnComponent,
     SubheaderComponent,
     ContactComponent,
+    ContactPanelsComponent,
     GalleryComponent,
     SpacerComponent,
   ],

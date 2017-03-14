@@ -64,7 +64,6 @@ export class HeroComponent implements AfterViewInit {
 	}
 
 	scrollTo(id) {
-		console.log('scroll to', id)
 		$('html, body').animate({
 			scrollTop: $(id).offset().top
 		},1000)

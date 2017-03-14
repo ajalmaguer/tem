@@ -1,81 +1,81 @@
-<br>
-<div class="sections_group">
-	<div class="entry-content" itemprop="mainContentOfPage">
-		<div class="section mcb-section   " id="contactform" style="padding-top:0px; padding-bottom:40px; background-color:">
-			<div class="section_wrapper mcb-section-inner">
-				<div class="wrap mcb-wrap one  valign-top clearfix">
-					<div class="mcb-wrap-inner">
-						<div class="column mcb-column one-second column_column ">
-							<div class="column_attr" style=" padding:0px 3% 0 0;">
-								
-								<div class="contactInfo">
-									<p>
-										<strong>Email:</strong> <a href="mailto:tmci@terminalmanufacturing.com​?subject=Re%20Terminal%20Website">tmci@terminalmanufacturing.com​</a>
-									</p>
-									<p>
-										<strong>Phone:</strong> +1 510 526 3071
-									</p>
-									<p>
-										<strong>Fax:</strong> +1 510 526 3138
-									</p>
-									<p>
-										<strong>Address:</strong> 707 Gilman Street, Berkeley, CA 94710 (<a href="https://goo.gl/maps/eGoDcWBo1no" target="_blank">map</a>)
-									</p>
-								</div>
+ <br>
+ <div class="sections_group">
+ 	<div class="entry-content" itemprop="mainContentOfPage">
+ 		<div class="section mcb-section   " id="contactform" style="padding-top:0px; padding-bottom:40px;">
+ 			<div class="section_wrapper mcb-section-inner">
+ 				<div class="wrap mcb-wrap one  valign-top clearfix">
+ 					<div class="mcb-wrap-inner">
+ 						<div class="column mcb-column one-second column_column ">
+ 							<div class="column_attr" style=" padding:0px 3% 0 0;">
 
-								<hr class="no_line" style="margin: 0 auto 30px;" />
-								<div role="form" class="wpcf7" id="wpcf7-f47-p13-o1" lang="en-US" dir="ltr">
-									<div class="screen-reader-response"></div>
-									<div id="contactWrapper">
-										<form id="contactform" [formGroup]="form">
-											<div class="column one-second">
-												<input placeholder="Your name" type="text" formControlName="name" id="name" size="40" aria-required="true" aria-invalid="false"/>
-											</div>
-											<div class="column one-second">
-												<input placeholder="Your e-mail" type="email" formControlName="email" id="email" size="40" aria-required="true" aria-invalid="false"/>
-											</div>
-											<div class="column one">
-												<input placeholder="Subject" type="text" formControlName="subject" id="subject" size="40" aria-invalid="false"/>
-											</div>
-											<div class="column one">
-												<textarea placeholder="Message" formControlName="message" id="message" style="width:100%;" rows="10" aria-invalid="false"></textarea>
-											</div>
-	
-											<div class="column one">
-												<recaptcha #captcha (resolved)="resolvedRecaptcha($event)" siteKey="6LdZsxIUAAAAAJ41M2EjgXvCvI_xYIHCWVJeKzYe"></recaptcha>
-											</div>
+ 								<div class="contactInfo">
+ 									<p>
+ 										<strong>Email:</strong> <a href="mailto:tmci@terminalmanufacturing.com​?subject=Re%20Terminal%20Website">tmci@terminalmanufacturing.com​</a>
+ 									</p>
+ 									<p>
+ 										<strong>Phone:</strong> +1 510 526 3071
+ 									</p>
+ 									<p>
+ 										<strong>Fax:</strong> +1 510 526 3138
+ 									</p>
+ 									<p>
+ 										<strong>Address:</strong> 707 Gilman Street, Berkeley, CA 94710 (<a href="https://goo.gl/maps/eGoDcWBo1no" target="_blank">map</a>)
+ 									</p>
+ 								</div>
 
-											<div class="column one">
-												<button type="button" (click)="submitForm()">Send A Message</button>
-											</div>
+ 								<hr class="no_line" style="margin: 0 auto 30px;" />
+ 								<div role="form" class="wpcf7" id="wpcf7-f47-p13-o1" lang="en-US" dir="ltr">
+ 									<div class="screen-reader-response"></div>
+ 									<div id="contactWrapper">
+ 										<form id="contactform" [formGroup]="form">
+ 											<div class="column one-second">
+ 												<input placeholder="Your name" type="text" formControlName="name" id="name" size="40" aria-required="true" aria-invalid="false"/>
+ 											</div>
+ 											<div class="column one-second">
+ 												<input placeholder="Your e-mail" type="email" formControlName="email" id="email" size="40" aria-required="true" aria-invalid="false"/>
+ 											</div>
+ 											<div class="column one">
+ 												<input placeholder="Subject" type="text" formControlName="subject" id="subject" size="40" aria-invalid="false"/>
+ 											</div>
+ 											<div class="column one">
+ 												<textarea placeholder="Message" formControlName="message" id="message" style="width:100%;" rows="10" aria-invalid="false"></textarea>
+ 											</div>
 
-											<div class="column one" *ngIf="response.show">
-												<h4 *ngIf="response.status">Your message has been sent</h4>
-												<h4 *ngIf="!response.status">There was an error sending your message.</h4>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="column mcb-column one-second column_map ">
+ 											<div class="column one">
+ 												<recaptcha #captcha (resolved)="resolvedRecaptcha($event)" siteKey="6LdZsxIUAAAAAJ41M2EjgXvCvI_xYIHCWVJeKzYe"></recaptcha>
+ 											</div>
 
-							<div class="google-map-wrapper no_border">
-								<div class="" id="map" style="width:100%; height:650px;">
-									&nbsp;
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+ 											<div class="column one">
+ 												<button type="button" (click)="submitForm()">Send A Message</button>
+ 											</div>
+
+ 											<div class="column one" *ngIf="response.show">
+ 												<h4 *ngIf="response.status">Your message has been sent</h4>
+ 												<h4 *ngIf="!response.status">There was an error sending your message.</h4>
+ 											</div>
+ 										</form>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<div class="column mcb-column one-second column_map ">
+
+ 							<div class="google-map-wrapper no_border">
+ 								<div class="" id="map" style="width:100%; height:650px;">
+ 									&nbsp;
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
 
 
 
-<br>
-<br>
-<br>
-<br>
+ <br>
+ <br>
+ <br>
+ <br>
