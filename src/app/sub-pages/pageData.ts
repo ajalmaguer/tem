@@ -173,7 +173,7 @@ export const pageData = {
 		elements: [
 			{
 				type: 'subheader',
-				data: 'A few reasons why we are one of the best engineering and manufacturing firms you will find'
+				data: 'A few reasons why we are one of the best engineering and manufacturing firms you will find.'
 			}, {
 				type: 'four-bulletpoints',
 				data: [
@@ -238,8 +238,8 @@ export const pageData = {
 		pageTitle: 'Facility Listing',
 		elements: [
 			{
-				type: 'spacer',
-				data: 2
+				type: 'subheader',
+				data: 'Please <strong><a href="/#/contact">email</a></strong> us for a printable version of our facility listing.'
 			}, {
 				type: 'triple-panes',
 				data: {
@@ -354,9 +354,6 @@ export const pageData = {
 						}
 					]
 				}
-			}, {
-				type: 'subheader',
-				data: 'Please contact tmci@terminalmanufacturing.com for a printable version of our facility listing.'
 			}, {
 				type: 'gallery',
 				data: {
